@@ -1,0 +1,4 @@
+#the hexID to auth into login
+#Sun Apr 12 00:21:41 ART 2020
+HexID=2d6e062446edce3cbf74aac8f7a4ad32
+ServerID=1

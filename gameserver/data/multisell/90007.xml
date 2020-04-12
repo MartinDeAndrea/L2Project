@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Custom Shop -->
+
+<list>
+<!-- Damascus -->
+  <item id="1">
+    <ingredient id="6392" count="100"/>
+    <ingredient id="6393" count="100"/>
+    <production id="4717" count="1"/>
+    <production id="674" count="1"/>
+    <production id="1465" count="5000"/>
+    <production id="3950" count="3000"/>
+  </item>
+
+<!-- Valhalla -->
+  <item id="2">
+    <ingredient id="57" count="500000000"/>
+    <production id="6392" count="50"/>
+    <production id="6393" count="50"/>
+  </item>
+
+</list>
