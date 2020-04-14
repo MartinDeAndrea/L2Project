@@ -1,0 +1,13 @@
+2020.04.13 01:15:05,318	INFO	1	com.l2jfrozen.util.Util	======================================================================-[ Team ]
+2020.04.13 01:15:05,448	INFO	1	com.l2jfrozen.L2Frozen	                  >>>>>  Developpers: Shyla, Beetle  <<<<<                  
+2020.04.13 01:15:05,448	INFO	1	com.l2jfrozen.L2Frozen	                                                                            
+2020.04.13 01:15:05,448	INFO	1	com.l2jfrozen.L2Frozen	         #     #####          ##### ##### ##### ##### ##### ##    #         
+2020.04.13 01:15:05,449	INFO	1	com.l2jfrozen.L2Frozen	         #         #          #     #   # #   #     # #     # #   #         
+2020.04.13 01:15:05,449	INFO	1	com.l2jfrozen.L2Frozen	         #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+2020.04.13 01:15:05,449	INFO	1	com.l2jfrozen.L2Frozen	         #     #              #     ###   #   # #     #     #   # #         
+2020.04.13 01:15:05,449	INFO	1	com.l2jfrozen.L2Frozen	         ##### #####          #     #  ## ##### ##### ##### #    ##         
+2020.04.13 01:15:05,450	INFO	1	com.l2jfrozen.L2Frozen	                                                                            
+2020.04.13 01:15:05,450	INFO	1	com.l2jfrozen.L2Frozen	                            Copyright 2010-2011                             
+2020.04.13 01:15:05,454	INFO	1	com.l2jfrozen.util.Util	==================================================================-[ Database ]
+2020.04.13 01:15:05,489	INFO	1	com.mchange.v2.log.MLog	MLog clients using java 1.4+ standard logging.
+2020.04.13 01:15:05,700	INFO	1	com.mchange.v2.c3p0.C3P0Registry	Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
