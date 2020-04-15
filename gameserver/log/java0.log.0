@@ -1,533 +1,539 @@
-2020.04.14 02:28:18,719	INFO	1	com.l2jfrozen.util.Util	======================================================================-[ Team ]
-2020.04.14 02:28:18,823	INFO	1	com.l2jfrozen.L2Frozen	                  >>>>>  Developpers: Shyla, Beetle  <<<<<                  
-2020.04.14 02:28:18,824	INFO	1	com.l2jfrozen.L2Frozen	                                                                            
-2020.04.14 02:28:18,824	INFO	1	com.l2jfrozen.L2Frozen	         #     #####          ##### ##### ##### ##### ##### ##    #         
-2020.04.14 02:28:18,824	INFO	1	com.l2jfrozen.L2Frozen	         #         #          #     #   # #   #     # #     # #   #         
-2020.04.14 02:28:18,824	INFO	1	com.l2jfrozen.L2Frozen	         #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
-2020.04.14 02:28:18,825	INFO	1	com.l2jfrozen.L2Frozen	         #     #              #     ###   #   # #     #     #   # #         
-2020.04.14 02:28:18,825	INFO	1	com.l2jfrozen.L2Frozen	         ##### #####          #     #  ## ##### ##### ##### #    ##         
-2020.04.14 02:28:18,825	INFO	1	com.l2jfrozen.L2Frozen	                                                                            
-2020.04.14 02:28:18,825	INFO	1	com.l2jfrozen.L2Frozen	                            Copyright 2010-2011                             
-2020.04.14 02:28:18,877	INFO	1	com.l2jfrozen.gameserver.managers.ClassDamageManager	Loaded 31 classes Damages configurations
-2020.04.14 02:28:18,906	INFO	1	com.l2jfrozen.Config	Loaded 0 Question Words.
-2020.04.14 02:28:18,907	INFO	1	com.l2jfrozen.util.Util	==================================================================-[ Database ]
-2020.04.14 02:28:18,938	INFO	1	com.mchange.v2.log.MLog	MLog clients using java 1.4+ standard logging.
-2020.04.14 02:28:19,117	INFO	1	com.mchange.v2.c3p0.C3P0Registry	Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
-2020.04.14 02:28:19,555	INFO	1	com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource	Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge0yia9x292xp14rfdkx|59690aa4, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge0yia9x292xp14rfdkx|59690aa4, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
-2020.04.14 02:28:19,587	INFO	1	Loader	L2DatabaseFactory: loaded.
-2020.04.14 02:28:19,595	INFO	1	com.l2jfrozen.util.Util	===================================================================-[ Threads ]
-2020.04.14 02:28:19,613	INFO	1	com.l2jfrozen.gameserver.cache.HtmCache	Cache[HTML]: Running lazy cache
-2020.04.14 02:28:19,624	INFO	1	com.l2jfrozen.gameserver.cache.CrestCache	Cache[Crest]: 0,000MB on 0 files loaded. (Forget Time: 300s , Capacity: 50)
-2020.04.14 02:28:19,637	INFO	1	com.l2jfrozen.gameserver.scripting.L2ScriptEngineManager	Initializing Script Engine Manager
-2020.04.14 02:28:19,657	INFO	1	com.l2jfrozen.gameserver.scripting.L2ScriptEngineManager	Script Engine: java 1.6 - Language: java - Language Version: 1.6
-2020.04.14 02:28:20,008	INFO	1	com.l2jfrozen.gameserver.scripting.L2ScriptEngineManager	Script Engine: Oracle Nashorn 1.8.0_241 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
-2020.04.14 02:28:20,376	INFO	1	com.l2jfrozen.gameserver.scripting.L2ScriptEngineManager	Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
-2020.04.14 02:28:20,417	INFO	1	com.l2jfrozen.gameserver.scripting.L2ScriptEngineManager	Script Engine: BeanShell Engine 1.1 - Language: BeanShell - Language Version: 2.0b5
-2020.04.14 02:28:20,575	INFO	1	com.l2jfrozen.util.Util	=====================================================================-[ World ]
-2020.04.14 02:28:20,577	CONFIG	1	com.l2jfrozen.gameserver.model.L2World	L2World: Setting up World Regions
-2020.04.14 02:28:20,604	CONFIG	1	com.l2jfrozen.gameserver.model.L2World	L2World: (87x128) World Region Grid set up.
-2020.04.14 02:28:20,610	CONFIG	1	com.l2jfrozen.gameserver.model.entity.Announcements	Announcements: Loaded 2 Announcements.
-2020.04.14 02:28:20,618	INFO	1	com.l2jfrozen.gameserver.handler.AutoAnnouncementHandler	GameServer: Loaded 0 Auto Announcements.
-2020.04.14 02:28:20,626	INFO	1	com.l2jfrozen.gameserver.idfactory.IdFactory	Updated characters online status.
-2020.04.14 02:28:20,647	INFO	1	com.l2jfrozen.gameserver.idfactory.IdFactory	Cleaned 0 elements from database.
-2020.04.14 02:28:20,695	INFO	1	com.l2jfrozen.gameserver.idfactory.BitSetIDFactory	IDFactory: 102912 id's available.
-2020.04.14 02:28:20,705	CONFIG	1	com.l2jfrozen.gameserver.datatables.csv.StaticObjects	StaticObject: Loaded 30 StaticObject Templates.
-2020.04.14 02:28:20,724	INFO	1	com.l2jfrozen.gameserver.managers.DuelManager	Initializing DuelManager
-2020.04.14 02:28:20,725	INFO	1	com.l2jfrozen.util.Util	====================================================================-[ Skills ]
-2020.04.14 02:28:23,766	INFO	1	Loader	Skills: loaded.
-2020.04.14 02:28:23,777	INFO	1	Loader	Skills Hero/Noble: loaded.
-2020.04.14 02:28:23,778	INFO	1	com.l2jfrozen.util.Util	=====================================================================-[ Items ]
-2020.04.14 02:28:24,187	CONFIG	1	com.l2jfrozen.gameserver.datatables.sql.SkillTreeTable	FishTable: Loaded 270 Fishes.
-2020.04.14 02:28:24,188	INFO	1	com.l2jfrozen.util.Util	=======================================================================-[ Npc ]
-2020.04.14 02:28:24,190	INFO	1	com.l2jfrozen.gameserver.datatables.csv.NpcWalkerRoutesTable	Initializing Walkers Routes Table.
-2020.04.14 02:28:24,192	INFO	1	com.l2jfrozen.gameserver.datatables.csv.NpcWalkerRoutesTable	WalkerRoutesTable: Loaded 167 Npc Walker Routes.
-2020.04.14 02:28:24,555	INFO	1	com.l2jfrozen.util.Util	================================================================-[ Characters ]
-2020.04.14 02:28:24,595	CONFIG	1	com.l2jfrozen.gameserver.datatables.sql.CharTemplateTable	CharTemplateTable: Loaded 89 Character Templates.
-2020.04.14 02:28:24,601	CONFIG	1	com.l2jfrozen.gameserver.datatables.csv.HennaTable	HennaTable: Loaded 180 Templates.
-2020.04.14 02:28:24,662	INFO	1	com.l2jfrozen.util.Util	===================================================================-[ Geodata ]
-2020.04.14 02:28:24,666	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading Geodata...
-2020.04.14 02:28:24,667	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/15_20.l2j -> region offset: 500X: 15 Y: 20
-2020.04.14 02:28:24,675	WARNING	1	com.l2jfrozen.gameserver.geo.GeoData	Failed to Load GeoFile at block: 0
+2020.04.14 23:26:08,595	INFO	1	com.l2jfrozen.util.Util	======================================================================-[ Team ]
+2020.04.14 23:26:08,746	INFO	1	com.l2jfrozen.L2Frozen	                  >>>>>  Developpers: Shyla, Beetle  <<<<<                  
+2020.04.14 23:26:08,746	INFO	1	com.l2jfrozen.L2Frozen	                                                                            
+2020.04.14 23:26:08,746	INFO	1	com.l2jfrozen.L2Frozen	         #     #####          ##### ##### ##### ##### ##### ##    #         
+2020.04.14 23:26:08,746	INFO	1	com.l2jfrozen.L2Frozen	         #         #          #     #   # #   #     # #     # #   #         
+2020.04.14 23:26:08,747	INFO	1	com.l2jfrozen.L2Frozen	         #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+2020.04.14 23:26:08,747	INFO	1	com.l2jfrozen.L2Frozen	         #     #              #     ###   #   # #     #     #   # #         
+2020.04.14 23:26:08,747	INFO	1	com.l2jfrozen.L2Frozen	         ##### #####          #     #  ## ##### ##### ##### #    ##         
+2020.04.14 23:26:08,747	INFO	1	com.l2jfrozen.L2Frozen	                                                                            
+2020.04.14 23:26:08,747	INFO	1	com.l2jfrozen.L2Frozen	                            Copyright 2010-2011                             
+2020.04.14 23:26:08,888	INFO	1	com.l2jfrozen.gameserver.managers.ClassDamageManager	Loaded 31 classes Damages configurations
+2020.04.14 23:26:08,931	INFO	1	com.l2jfrozen.Config	Loaded 0 Question Words.
+2020.04.14 23:26:08,932	INFO	1	com.l2jfrozen.util.Util	==================================================================-[ Database ]
+2020.04.14 23:26:09,000	INFO	1	com.mchange.v2.log.MLog	MLog clients using java 1.4+ standard logging.
+2020.04.14 23:26:09,180	INFO	1	com.mchange.v2.c3p0.C3P0Registry	Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2020.04.14 23:26:09,639	INFO	1	com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource	Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge0yia9yb6o0b1pnhh8u|59690aa4, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge0yia9yb6o0b1pnhh8u|59690aa4, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2020.04.14 23:26:09,671	INFO	1	Loader	L2DatabaseFactory: loaded.
+2020.04.14 23:26:09,672	INFO	1	com.l2jfrozen.util.Util	===================================================================-[ Threads ]
+2020.04.14 23:26:09,695	INFO	1	com.l2jfrozen.gameserver.cache.HtmCache	Cache[HTML]: Running lazy cache
+2020.04.14 23:26:09,709	INFO	1	com.l2jfrozen.gameserver.cache.CrestCache	Cache[Crest]: 0,000MB on 0 files loaded. (Forget Time: 300s , Capacity: 50)
+2020.04.14 23:26:09,727	INFO	1	com.l2jfrozen.gameserver.scripting.L2ScriptEngineManager	Initializing Script Engine Manager
+2020.04.14 23:26:09,811	INFO	1	com.l2jfrozen.gameserver.scripting.L2ScriptEngineManager	Script Engine: java 1.6 - Language: java - Language Version: 1.6
+2020.04.14 23:26:10,190	INFO	1	com.l2jfrozen.gameserver.scripting.L2ScriptEngineManager	Script Engine: Oracle Nashorn 1.8.0_241 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+2020.04.14 23:26:10,876	INFO	1	com.l2jfrozen.gameserver.scripting.L2ScriptEngineManager	Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+2020.04.14 23:26:10,918	INFO	1	com.l2jfrozen.gameserver.scripting.L2ScriptEngineManager	Script Engine: BeanShell Engine 1.1 - Language: BeanShell - Language Version: 2.0b5
+2020.04.14 23:26:11,081	INFO	1	com.l2jfrozen.util.Util	=====================================================================-[ World ]
+2020.04.14 23:26:11,083	CONFIG	1	com.l2jfrozen.gameserver.model.L2World	L2World: Setting up World Regions
+2020.04.14 23:26:11,112	CONFIG	1	com.l2jfrozen.gameserver.model.L2World	L2World: (87x128) World Region Grid set up.
+2020.04.14 23:26:11,120	CONFIG	1	com.l2jfrozen.gameserver.model.entity.Announcements	Announcements: Loaded 3 Announcements.
+2020.04.14 23:26:11,130	INFO	1	com.l2jfrozen.gameserver.handler.AutoAnnouncementHandler	GameServer: Loaded 0 Auto Announcements.
+2020.04.14 23:26:11,141	INFO	1	com.l2jfrozen.gameserver.idfactory.IdFactory	Updated characters online status.
+2020.04.14 23:26:11,163	INFO	1	com.l2jfrozen.gameserver.idfactory.IdFactory	Cleaned 0 elements from database.
+2020.04.14 23:26:11,213	INFO	1	com.l2jfrozen.gameserver.idfactory.BitSetIDFactory	IDFactory: 102912 id's available.
+2020.04.14 23:26:11,237	CONFIG	1	com.l2jfrozen.gameserver.datatables.csv.StaticObjects	StaticObject: Loaded 30 StaticObject Templates.
+2020.04.14 23:26:11,258	INFO	1	com.l2jfrozen.gameserver.managers.DuelManager	Initializing DuelManager
+2020.04.14 23:26:11,258	INFO	1	com.l2jfrozen.util.Util	====================================================================-[ Skills ]
+2020.04.14 23:26:14,373	INFO	1	Loader	Skills: loaded.
+2020.04.14 23:26:14,375	INFO	1	Loader	Skills Hero/Noble: loaded.
+2020.04.14 23:26:14,377	INFO	1	com.l2jfrozen.util.Util	=====================================================================-[ Items ]
+2020.04.14 23:26:14,899	CONFIG	1	com.l2jfrozen.gameserver.datatables.sql.SkillTreeTable	FishTable: Loaded 270 Fishes.
+2020.04.14 23:26:14,899	INFO	1	com.l2jfrozen.util.Util	=======================================================================-[ Npc ]
+2020.04.14 23:26:14,901	INFO	1	com.l2jfrozen.gameserver.datatables.csv.NpcWalkerRoutesTable	Initializing Walkers Routes Table.
+2020.04.14 23:26:14,903	INFO	1	com.l2jfrozen.gameserver.datatables.csv.NpcWalkerRoutesTable	WalkerRoutesTable: Loaded 167 Npc Walker Routes.
+2020.04.14 23:26:15,271	INFO	1	com.l2jfrozen.util.Util	================================================================-[ Characters ]
+2020.04.14 23:26:15,311	CONFIG	1	com.l2jfrozen.gameserver.datatables.sql.CharTemplateTable	CharTemplateTable: Loaded 89 Character Templates.
+2020.04.14 23:26:15,319	CONFIG	1	com.l2jfrozen.gameserver.datatables.csv.HennaTable	HennaTable: Loaded 180 Templates.
+2020.04.14 23:26:15,391	INFO	1	com.l2jfrozen.util.Util	===================================================================-[ Geodata ]
+2020.04.14 23:26:15,396	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading Geodata...
+2020.04.14 23:26:15,404	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/15_20.l2j -> region offset: 500X: 15 Y: 20
+2020.04.14 23:26:15,413	WARNING	1	com.l2jfrozen.gameserver.geo.GeoData	Failed to Load GeoFile at block: 0
 
-2020.04.14 02:28:24,676	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/15_21.l2j -> region offset: 501X: 15 Y: 21
-2020.04.14 02:28:24,684	WARNING	1	com.l2jfrozen.gameserver.geo.GeoData	Failed to Load GeoFile at block: 0
+2020.04.14 23:26:15,413	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/15_21.l2j -> region offset: 501X: 15 Y: 21
+2020.04.14 23:26:15,421	WARNING	1	com.l2jfrozen.gameserver.geo.GeoData	Failed to Load GeoFile at block: 0
 
-2020.04.14 02:28:24,684	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/15_22.l2j -> region offset: 502X: 15 Y: 22
-2020.04.14 02:28:24,692	WARNING	1	com.l2jfrozen.gameserver.geo.GeoData	Failed to Load GeoFile at block: 0
+2020.04.14 23:26:15,421	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/15_22.l2j -> region offset: 502X: 15 Y: 22
+2020.04.14 23:26:15,430	WARNING	1	com.l2jfrozen.gameserver.geo.GeoData	Failed to Load GeoFile at block: 0
 
-2020.04.14 02:28:24,692	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/15_23.l2j -> region offset: 503X: 15 Y: 23
-2020.04.14 02:28:24,700	WARNING	1	com.l2jfrozen.gameserver.geo.GeoData	Failed to Load GeoFile at block: 0
+2020.04.14 23:26:15,430	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/15_23.l2j -> region offset: 503X: 15 Y: 23
+2020.04.14 23:26:15,438	WARNING	1	com.l2jfrozen.gameserver.geo.GeoData	Failed to Load GeoFile at block: 0
 
-2020.04.14 02:28:24,700	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/15_24.l2j -> region offset: 504X: 15 Y: 24
-2020.04.14 02:28:24,708	WARNING	1	com.l2jfrozen.gameserver.geo.GeoData	Failed to Load GeoFile at block: 0
+2020.04.14 23:26:15,438	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/15_24.l2j -> region offset: 504X: 15 Y: 24
+2020.04.14 23:26:15,446	WARNING	1	com.l2jfrozen.gameserver.geo.GeoData	Failed to Load GeoFile at block: 0
 
-2020.04.14 02:28:24,708	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/15_25.l2j -> region offset: 505X: 15 Y: 25
-2020.04.14 02:28:24,716	WARNING	1	com.l2jfrozen.gameserver.geo.GeoData	Failed to Load GeoFile at block: 0
+2020.04.14 23:26:15,447	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/15_25.l2j -> region offset: 505X: 15 Y: 25
+2020.04.14 23:26:15,456	WARNING	1	com.l2jfrozen.gameserver.geo.GeoData	Failed to Load GeoFile at block: 0
 
-2020.04.14 02:28:24,716	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/15_26.l2j -> region offset: 506X: 15 Y: 26
-2020.04.14 02:28:24,724	WARNING	1	com.l2jfrozen.gameserver.geo.GeoData	Failed to Load GeoFile at block: 0
+2020.04.14 23:26:15,456	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/15_26.l2j -> region offset: 506X: 15 Y: 26
+2020.04.14 23:26:15,464	WARNING	1	com.l2jfrozen.gameserver.geo.GeoData	Failed to Load GeoFile at block: 0
 
-2020.04.14 02:28:24,724	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_10.l2j -> region offset: 522X: 16 Y: 10
-2020.04.14 02:28:24,823	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 16816814 Loaded: 16816814
-2020.04.14 02:28:24,823	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_11.l2j -> region offset: 523X: 16 Y: 11
-2020.04.14 02:28:24,833	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 1601630 Loaded: 1601630
-2020.04.14 02:28:24,833	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_12.l2j -> region offset: 524X: 16 Y: 12
-2020.04.14 02:28:24,839	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 1353668 Loaded: 1353668
-2020.04.14 02:28:24,839	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_13.l2j -> region offset: 525X: 16 Y: 13
-2020.04.14 02:28:24,840	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,840	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_14.l2j -> region offset: 526X: 16 Y: 14
-2020.04.14 02:28:24,841	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,841	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_15.l2j -> region offset: 527X: 16 Y: 15
-2020.04.14 02:28:24,842	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,842	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_16.l2j -> region offset: 528X: 16 Y: 16
-2020.04.14 02:28:24,843	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,843	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_17.l2j -> region offset: 529X: 16 Y: 17
-2020.04.14 02:28:24,843	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,844	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_18.l2j -> region offset: 530X: 16 Y: 18
-2020.04.14 02:28:24,844	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,845	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_19.l2j -> region offset: 531X: 16 Y: 19
-2020.04.14 02:28:24,845	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,846	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_20.l2j -> region offset: 532X: 16 Y: 20
-2020.04.14 02:28:24,847	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 223068 Loaded: 223068
-2020.04.14 02:28:24,848	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_21.l2j -> region offset: 533X: 16 Y: 21
-2020.04.14 02:28:24,850	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 516482 Loaded: 516482
-2020.04.14 02:28:24,851	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_22.l2j -> region offset: 534X: 16 Y: 22
-2020.04.14 02:28:24,851	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,851	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_23.l2j -> region offset: 535X: 16 Y: 23
-2020.04.14 02:28:24,852	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,852	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_24.l2j -> region offset: 536X: 16 Y: 24
-2020.04.14 02:28:24,855	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 1450518 Loaded: 1450518
-2020.04.14 02:28:24,856	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_25.l2j -> region offset: 537X: 16 Y: 25
-2020.04.14 02:28:24,860	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 2138002 Loaded: 2138002
-2020.04.14 02:28:24,861	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_26.l2j -> region offset: 538X: 16 Y: 26
-2020.04.14 02:28:24,861	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,861	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_10.l2j -> region offset: 554X: 17 Y: 10
-2020.04.14 02:28:24,866	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 1598462 Loaded: 1598462
-2020.04.14 02:28:24,867	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_11.l2j -> region offset: 555X: 17 Y: 11
-2020.04.14 02:28:24,872	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 1633812 Loaded: 1633812
-2020.04.14 02:28:24,872	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_12.l2j -> region offset: 556X: 17 Y: 12
-2020.04.14 02:28:24,873	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,873	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_13.l2j -> region offset: 557X: 17 Y: 13
-2020.04.14 02:28:24,874	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,875	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_14.l2j -> region offset: 558X: 17 Y: 14
-2020.04.14 02:28:24,876	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,876	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_15.l2j -> region offset: 559X: 17 Y: 15
-2020.04.14 02:28:24,877	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,877	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_16.l2j -> region offset: 560X: 17 Y: 16
-2020.04.14 02:28:24,877	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,878	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_17.l2j -> region offset: 561X: 17 Y: 17
-2020.04.14 02:28:24,878	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,879	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_18.l2j -> region offset: 562X: 17 Y: 18
-2020.04.14 02:28:24,879	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,880	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_19.l2j -> region offset: 563X: 17 Y: 19
-2020.04.14 02:28:24,880	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,881	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_20.l2j -> region offset: 564X: 17 Y: 20
-2020.04.14 02:28:24,887	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 3314810 Loaded: 3314810
-2020.04.14 02:28:24,887	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_21.l2j -> region offset: 565X: 17 Y: 21
-2020.04.14 02:28:24,891	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 4570950 Loaded: 4570950
-2020.04.14 02:28:24,891	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_22.l2j -> region offset: 566X: 17 Y: 22
-2020.04.14 02:28:24,898	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 4353056 Loaded: 4353056
-2020.04.14 02:28:24,898	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_23.l2j -> region offset: 567X: 17 Y: 23
-2020.04.14 02:28:24,900	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 902280 Loaded: 902280
-2020.04.14 02:28:24,900	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_24.l2j -> region offset: 568X: 17 Y: 24
-2020.04.14 02:28:24,902	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 278004 Loaded: 278004
-2020.04.14 02:28:24,902	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_25.l2j -> region offset: 569X: 17 Y: 25
-2020.04.14 02:28:24,905	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 2285538 Loaded: 2285538
-2020.04.14 02:28:24,905	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_26.l2j -> region offset: 570X: 17 Y: 26
-2020.04.14 02:28:24,906	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,906	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_10.l2j -> region offset: 586X: 18 Y: 10
-2020.04.14 02:28:24,910	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 8 Size: 3826426 Loaded: 3826426
-2020.04.14 02:28:24,910	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_11.l2j -> region offset: 587X: 18 Y: 11
-2020.04.14 02:28:24,911	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,911	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_12.l2j -> region offset: 588X: 18 Y: 12
-2020.04.14 02:28:24,912	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,912	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_13.l2j -> region offset: 589X: 18 Y: 13
-2020.04.14 02:28:24,913	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,913	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_14.l2j -> region offset: 590X: 18 Y: 14
-2020.04.14 02:28:24,917	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 4318008 Loaded: 4318008
-2020.04.14 02:28:24,917	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_15.l2j -> region offset: 591X: 18 Y: 15
-2020.04.14 02:28:24,918	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,918	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_16.l2j -> region offset: 592X: 18 Y: 16
-2020.04.14 02:28:24,919	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,920	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_17.l2j -> region offset: 593X: 18 Y: 17
-2020.04.14 02:28:24,920	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,921	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_18.l2j -> region offset: 594X: 18 Y: 18
-2020.04.14 02:28:24,921	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,921	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_19.l2j -> region offset: 595X: 18 Y: 19
-2020.04.14 02:28:24,924	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 3277650 Loaded: 3277650
-2020.04.14 02:28:24,924	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_20.l2j -> region offset: 596X: 18 Y: 20
-2020.04.14 02:28:24,934	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 4368058 Loaded: 4368058
-2020.04.14 02:28:24,934	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_21.l2j -> region offset: 597X: 18 Y: 21
-2020.04.14 02:28:24,938	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 4257062 Loaded: 4257062
-2020.04.14 02:28:24,938	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_22.l2j -> region offset: 598X: 18 Y: 22
-2020.04.14 02:28:24,942	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 5695118 Loaded: 5695118
-2020.04.14 02:28:24,943	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_23.l2j -> region offset: 599X: 18 Y: 23
-2020.04.14 02:28:24,951	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 5262180 Loaded: 5262180
-2020.04.14 02:28:24,952	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_24.l2j -> region offset: 600X: 18 Y: 24
-2020.04.14 02:28:24,955	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 3516124 Loaded: 3516124
-2020.04.14 02:28:24,955	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_25.l2j -> region offset: 601X: 18 Y: 25
-2020.04.14 02:28:24,957	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 228612 Loaded: 228612
-2020.04.14 02:28:24,957	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_26.l2j -> region offset: 602X: 18 Y: 26
-2020.04.14 02:28:24,957	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,957	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_10.l2j -> region offset: 618X: 19 Y: 10
-2020.04.14 02:28:24,961	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 8 Size: 3873432 Loaded: 3873432
-2020.04.14 02:28:24,961	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_11.l2j -> region offset: 619X: 19 Y: 11
-2020.04.14 02:28:24,962	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,962	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_12.l2j -> region offset: 620X: 19 Y: 12
-2020.04.14 02:28:24,962	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,963	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_13.l2j -> region offset: 621X: 19 Y: 13
-2020.04.14 02:28:24,964	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 3402602 Loaded: 3402602
-2020.04.14 02:28:24,965	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_14.l2j -> region offset: 622X: 19 Y: 14
-2020.04.14 02:28:24,966	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 4693466 Loaded: 4693466
-2020.04.14 02:28:24,967	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_15.l2j -> region offset: 623X: 19 Y: 15
-2020.04.14 02:28:24,969	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 3936872 Loaded: 3936872
-2020.04.14 02:28:24,969	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_16.l2j -> region offset: 624X: 19 Y: 16
-2020.04.14 02:28:24,972	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 3466828 Loaded: 3466828
-2020.04.14 02:28:24,973	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_17.l2j -> region offset: 625X: 19 Y: 17
-2020.04.14 02:28:24,974	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 1269380 Loaded: 1269380
-2020.04.14 02:28:24,974	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_18.l2j -> region offset: 626X: 19 Y: 18
-2020.04.14 02:28:24,977	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 4882924 Loaded: 4882924
-2020.04.14 02:28:24,977	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_19.l2j -> region offset: 627X: 19 Y: 19
-2020.04.14 02:28:24,979	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 2566634 Loaded: 2566634
-2020.04.14 02:28:24,980	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_20.l2j -> region offset: 628X: 19 Y: 20
-2020.04.14 02:28:24,982	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 3724650 Loaded: 3724650
-2020.04.14 02:28:24,983	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_21.l2j -> region offset: 629X: 19 Y: 21
-2020.04.14 02:28:24,985	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 3332632 Loaded: 3332632
-2020.04.14 02:28:24,985	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_22.l2j -> region offset: 630X: 19 Y: 22
-2020.04.14 02:28:24,988	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 4630154 Loaded: 4630154
-2020.04.14 02:28:24,988	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_23.l2j -> region offset: 631X: 19 Y: 23
-2020.04.14 02:28:24,995	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 11 Size: 9498762 Loaded: 9498762
-2020.04.14 02:28:24,996	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_24.l2j -> region offset: 632X: 19 Y: 24
-2020.04.14 02:28:24,998	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 2870100 Loaded: 2870100
-2020.04.14 02:28:24,998	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_25.l2j -> region offset: 633X: 19 Y: 25
-2020.04.14 02:28:24,998	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,999	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_26.l2j -> region offset: 634X: 19 Y: 26
-2020.04.14 02:28:24,999	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:24,999	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_10.l2j -> region offset: 650X: 20 Y: 10
-2020.04.14 02:28:25,001	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 8 Size: 2071990 Loaded: 2071990
-2020.04.14 02:28:25,002	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_11.l2j -> region offset: 651X: 20 Y: 11
-2020.04.14 02:28:25,002	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:25,002	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_12.l2j -> region offset: 652X: 20 Y: 12
-2020.04.14 02:28:25,002	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:25,002	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_13.l2j -> region offset: 653X: 20 Y: 13
-2020.04.14 02:28:25,005	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 4223650 Loaded: 4223650
-2020.04.14 02:28:25,005	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_14.l2j -> region offset: 654X: 20 Y: 14
-2020.04.14 02:28:25,010	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 7877620 Loaded: 7877620
-2020.04.14 02:28:25,010	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_15.l2j -> region offset: 655X: 20 Y: 15
-2020.04.14 02:28:25,012	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 3932294 Loaded: 3932294
-2020.04.14 02:28:25,012	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_16.l2j -> region offset: 656X: 20 Y: 16
-2020.04.14 02:28:25,014	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 9 Size: 3504878 Loaded: 3504878
-2020.04.14 02:28:25,014	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_17.l2j -> region offset: 657X: 20 Y: 17
-2020.04.14 02:28:25,018	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 5709916 Loaded: 5709916
-2020.04.14 02:28:25,018	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_18.l2j -> region offset: 658X: 20 Y: 18
-2020.04.14 02:28:25,020	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 3619170 Loaded: 3619170
-2020.04.14 02:28:25,020	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_19.l2j -> region offset: 659X: 20 Y: 19
-2020.04.14 02:28:25,023	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 2651036 Loaded: 2651036
-2020.04.14 02:28:25,023	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_20.l2j -> region offset: 660X: 20 Y: 20
-2020.04.14 02:28:25,026	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 5135826 Loaded: 5135826
-2020.04.14 02:28:25,026	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_21.l2j -> region offset: 661X: 20 Y: 21
-2020.04.14 02:28:25,033	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 9 Size: 9843752 Loaded: 9843752
-2020.04.14 02:28:25,034	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_22.l2j -> region offset: 662X: 20 Y: 22
-2020.04.14 02:28:25,037	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 4832250 Loaded: 4832250
-2020.04.14 02:28:25,037	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_23.l2j -> region offset: 663X: 20 Y: 23
-2020.04.14 02:28:25,039	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 3431390 Loaded: 3431390
-2020.04.14 02:28:25,040	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_24.l2j -> region offset: 664X: 20 Y: 24
-2020.04.14 02:28:25,041	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:25,041	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_25.l2j -> region offset: 665X: 20 Y: 25
-2020.04.14 02:28:25,042	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:25,042	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_26.l2j -> region offset: 666X: 20 Y: 26
-2020.04.14 02:28:25,042	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:25,042	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_10.l2j -> region offset: 682X: 21 Y: 10
-2020.04.14 02:28:25,043	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:25,043	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_11.l2j -> region offset: 683X: 21 Y: 11
-2020.04.14 02:28:25,043	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:25,043	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_12.l2j -> region offset: 684X: 21 Y: 12
-2020.04.14 02:28:25,044	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:25,044	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_13.l2j -> region offset: 685X: 21 Y: 13
-2020.04.14 02:28:25,044	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 284682 Loaded: 284682
-2020.04.14 02:28:25,045	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_14.l2j -> region offset: 686X: 21 Y: 14
-2020.04.14 02:28:25,048	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 7660720 Loaded: 7660720
-2020.04.14 02:28:25,048	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_15.l2j -> region offset: 687X: 21 Y: 15
-2020.04.14 02:28:25,052	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 6861616 Loaded: 6861616
-2020.04.14 02:28:25,052	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_16.l2j -> region offset: 688X: 21 Y: 16
-2020.04.14 02:28:25,056	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 10 Size: 7195714 Loaded: 7195714
-2020.04.14 02:28:25,056	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_17.l2j -> region offset: 689X: 21 Y: 17
-2020.04.14 02:28:25,057	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 1782142 Loaded: 1782142
-2020.04.14 02:28:25,057	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_18.l2j -> region offset: 690X: 21 Y: 18
-2020.04.14 02:28:25,062	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 6043604 Loaded: 6043604
-2020.04.14 02:28:25,062	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_19.l2j -> region offset: 691X: 21 Y: 19
-2020.04.14 02:28:25,065	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 2869586 Loaded: 2869586
-2020.04.14 02:28:25,065	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_20.l2j -> region offset: 692X: 21 Y: 20
-2020.04.14 02:28:25,067	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 3781162 Loaded: 3781162
-2020.04.14 02:28:25,068	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_21.l2j -> region offset: 693X: 21 Y: 21
-2020.04.14 02:28:25,073	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 7233862 Loaded: 7233862
-2020.04.14 02:28:25,073	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_22.l2j -> region offset: 694X: 21 Y: 22
-2020.04.14 02:28:25,077	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 5973246 Loaded: 5973246
-2020.04.14 02:28:25,077	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_23.l2j -> region offset: 695X: 21 Y: 23
-2020.04.14 02:28:25,081	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 5335506 Loaded: 5335506
-2020.04.14 02:28:25,081	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_24.l2j -> region offset: 696X: 21 Y: 24
-2020.04.14 02:28:25,086	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 6419744 Loaded: 6419744
-2020.04.14 02:28:25,086	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_25.l2j -> region offset: 697X: 21 Y: 25
-2020.04.14 02:28:25,087	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 751114 Loaded: 751114
-2020.04.14 02:28:25,087	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_13.l2j -> region offset: 717X: 22 Y: 13
-2020.04.14 02:28:25,091	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 6344024 Loaded: 6344024
-2020.04.14 02:28:25,091	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_14.l2j -> region offset: 718X: 22 Y: 14
-2020.04.14 02:28:25,095	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 7792440 Loaded: 7792440
-2020.04.14 02:28:25,096	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_15.l2j -> region offset: 719X: 22 Y: 15
-2020.04.14 02:28:25,101	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 7761592 Loaded: 7761592
-2020.04.14 02:28:25,101	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_16.l2j -> region offset: 720X: 22 Y: 16
-2020.04.14 02:28:25,109	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 12006282 Loaded: 12006282
-2020.04.14 02:28:25,110	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_17.l2j -> region offset: 721X: 22 Y: 17
-2020.04.14 02:28:25,112	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 4638198 Loaded: 4638198
-2020.04.14 02:28:25,112	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_18.l2j -> region offset: 722X: 22 Y: 18
-2020.04.14 02:28:25,115	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 9 Size: 4226282 Loaded: 4226282
-2020.04.14 02:28:25,115	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_19.l2j -> region offset: 723X: 22 Y: 19
-2020.04.14 02:28:25,117	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 4035796 Loaded: 4035796
-2020.04.14 02:28:25,118	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_20.l2j -> region offset: 724X: 22 Y: 20
-2020.04.14 02:28:25,120	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 3394924 Loaded: 3394924
-2020.04.14 02:28:25,121	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_21.l2j -> region offset: 725X: 22 Y: 21
-2020.04.14 02:28:25,126	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 8 Size: 4813790 Loaded: 4813790
-2020.04.14 02:28:25,126	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_22.l2j -> region offset: 726X: 22 Y: 22
-2020.04.14 02:28:25,129	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 5563560 Loaded: 5563560
-2020.04.14 02:28:25,129	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_23.l2j -> region offset: 727X: 22 Y: 23
-2020.04.14 02:28:25,132	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 4409314 Loaded: 4409314
-2020.04.14 02:28:25,132	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_24.l2j -> region offset: 728X: 22 Y: 24
-2020.04.14 02:28:25,135	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 3935170 Loaded: 3935170
-2020.04.14 02:28:25,135	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_25.l2j -> region offset: 729X: 22 Y: 25
-2020.04.14 02:28:25,140	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 5374500 Loaded: 5374500
-2020.04.14 02:28:25,140	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_26.l2j -> region offset: 730X: 22 Y: 26
-2020.04.14 02:28:25,140	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:25,141	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_10.l2j -> region offset: 746X: 23 Y: 10
-2020.04.14 02:28:25,141	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 276870 Loaded: 276870
-2020.04.14 02:28:25,142	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_11.l2j -> region offset: 747X: 23 Y: 11
-2020.04.14 02:28:25,143	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 3265184 Loaded: 3265184
-2020.04.14 02:28:25,144	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_12.l2j -> region offset: 748X: 23 Y: 12
-2020.04.14 02:28:25,147	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 7139550 Loaded: 7139550
-2020.04.14 02:28:25,147	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_13.l2j -> region offset: 749X: 23 Y: 13
-2020.04.14 02:28:25,150	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 6485174 Loaded: 6485174
-2020.04.14 02:28:25,150	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_14.l2j -> region offset: 750X: 23 Y: 14
-2020.04.14 02:28:25,155	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 7548792 Loaded: 7548792
-2020.04.14 02:28:25,155	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_15.l2j -> region offset: 751X: 23 Y: 15
-2020.04.14 02:28:25,162	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 10894422 Loaded: 10894422
-2020.04.14 02:28:25,162	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_16.l2j -> region offset: 752X: 23 Y: 16
-2020.04.14 02:28:25,167	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 6424884 Loaded: 6424884
-2020.04.14 02:28:25,167	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_17.l2j -> region offset: 753X: 23 Y: 17
-2020.04.14 02:28:25,170	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 6472620 Loaded: 6472620
-2020.04.14 02:28:25,170	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_18.l2j -> region offset: 754X: 23 Y: 18
-2020.04.14 02:28:25,175	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 21 Size: 8017312 Loaded: 8017312
-2020.04.14 02:28:25,175	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_19.l2j -> region offset: 755X: 23 Y: 19
-2020.04.14 02:28:25,179	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 7039468 Loaded: 7039468
-2020.04.14 02:28:25,179	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_20.l2j -> region offset: 756X: 23 Y: 20
-2020.04.14 02:28:25,183	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 7313328 Loaded: 7313328
-2020.04.14 02:28:25,183	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_21.l2j -> region offset: 757X: 23 Y: 21
-2020.04.14 02:28:25,188	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 5915114 Loaded: 5915114
-2020.04.14 02:28:25,188	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_22.l2j -> region offset: 758X: 23 Y: 22
-2020.04.14 02:28:25,191	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 4418070 Loaded: 4418070
-2020.04.14 02:28:25,192	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_23.l2j -> region offset: 759X: 23 Y: 23
-2020.04.14 02:28:25,196	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 5295316 Loaded: 5295316
-2020.04.14 02:28:25,196	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_24.l2j -> region offset: 760X: 23 Y: 24
-2020.04.14 02:28:25,199	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 4671462 Loaded: 4671462
-2020.04.14 02:28:25,199	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_25.l2j -> region offset: 761X: 23 Y: 25
-2020.04.14 02:28:25,201	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 3264202 Loaded: 3264202
-2020.04.14 02:28:25,202	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_26.l2j -> region offset: 762X: 23 Y: 26
-2020.04.14 02:28:25,202	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:25,202	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_10.l2j -> region offset: 778X: 24 Y: 10
-2020.04.14 02:28:25,203	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 262506 Loaded: 262506
-2020.04.14 02:28:25,203	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_11.l2j -> region offset: 779X: 24 Y: 11
-2020.04.14 02:28:25,205	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 3305300 Loaded: 3305300
-2020.04.14 02:28:25,205	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_12.l2j -> region offset: 780X: 24 Y: 12
-2020.04.14 02:28:25,211	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 11142898 Loaded: 11142898
-2020.04.14 02:28:25,212	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_13.l2j -> region offset: 781X: 24 Y: 13
-2020.04.14 02:28:25,213	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 2186778 Loaded: 2186778
-2020.04.14 02:28:25,213	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_14.l2j -> region offset: 782X: 24 Y: 14
-2020.04.14 02:28:25,216	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 6155286 Loaded: 6155286
-2020.04.14 02:28:25,216	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_15.l2j -> region offset: 783X: 24 Y: 15
-2020.04.14 02:28:25,220	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 5781964 Loaded: 5781964
-2020.04.14 02:28:25,220	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_16.l2j -> region offset: 784X: 24 Y: 16
-2020.04.14 02:28:25,223	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 5839078 Loaded: 5839078
-2020.04.14 02:28:25,224	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_17.l2j -> region offset: 785X: 24 Y: 17
-2020.04.14 02:28:25,226	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 5651342 Loaded: 5651342
-2020.04.14 02:28:25,227	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_18.l2j -> region offset: 786X: 24 Y: 18
-2020.04.14 02:28:25,230	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 4063066 Loaded: 4063066
-2020.04.14 02:28:25,230	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_19.l2j -> region offset: 787X: 24 Y: 19
-2020.04.14 02:28:25,232	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 3335538 Loaded: 3335538
-2020.04.14 02:28:25,233	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_20.l2j -> region offset: 788X: 24 Y: 20
-2020.04.14 02:28:25,240	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 7885768 Loaded: 7885768
-2020.04.14 02:28:25,240	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_21.l2j -> region offset: 789X: 24 Y: 21
-2020.04.14 02:28:25,244	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 4126332 Loaded: 4126332
-2020.04.14 02:28:25,244	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_22.l2j -> region offset: 790X: 24 Y: 22
-2020.04.14 02:28:25,246	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 2483886 Loaded: 2483886
-2020.04.14 02:28:25,246	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_23.l2j -> region offset: 791X: 24 Y: 23
-2020.04.14 02:28:25,247	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 2 Size: 720254 Loaded: 720254
-2020.04.14 02:28:25,247	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_24.l2j -> region offset: 792X: 24 Y: 24
-2020.04.14 02:28:25,248	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 340626 Loaded: 340626
-2020.04.14 02:28:25,248	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_25.l2j -> region offset: 793X: 24 Y: 25
-2020.04.14 02:28:25,249	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 586578 Loaded: 586578
-2020.04.14 02:28:25,249	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_26.l2j -> region offset: 794X: 24 Y: 26
-2020.04.14 02:28:25,250	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:25,250	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_10.l2j -> region offset: 810X: 25 Y: 10
-2020.04.14 02:28:25,250	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:25,251	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_11.l2j -> region offset: 811X: 25 Y: 11
-2020.04.14 02:28:25,253	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 3659954 Loaded: 3659954
-2020.04.14 02:28:25,253	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_12.l2j -> region offset: 812X: 25 Y: 12
-2020.04.14 02:28:25,261	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 8 Size: 13722452 Loaded: 13722452
-2020.04.14 02:28:25,261	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_14.l2j -> region offset: 814X: 25 Y: 14
-2020.04.14 02:28:25,271	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 13850476 Loaded: 13850476
-2020.04.14 02:28:25,272	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_15.l2j -> region offset: 815X: 25 Y: 15
-2020.04.14 02:28:25,280	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 12010470 Loaded: 12010470
-2020.04.14 02:28:25,280	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_16.l2j -> region offset: 816X: 25 Y: 16
-2020.04.14 02:28:25,283	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 6498272 Loaded: 6498272
-2020.04.14 02:28:25,284	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_17.l2j -> region offset: 817X: 25 Y: 17
-2020.04.14 02:28:25,289	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 8580214 Loaded: 8580214
-2020.04.14 02:28:25,289	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_18.l2j -> region offset: 818X: 25 Y: 18
-2020.04.14 02:28:25,292	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 4095078 Loaded: 4095078
-2020.04.14 02:28:25,292	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_19.l2j -> region offset: 819X: 25 Y: 19
-2020.04.14 02:28:25,299	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 9445748 Loaded: 9445748
-2020.04.14 02:28:25,299	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_20.l2j -> region offset: 820X: 25 Y: 20
-2020.04.14 02:28:25,301	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 2397506 Loaded: 2397506
-2020.04.14 02:28:25,301	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_21.l2j -> region offset: 821X: 25 Y: 21
-2020.04.14 02:28:25,306	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 4703208 Loaded: 4703208
-2020.04.14 02:28:25,306	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/26_11.l2j -> region offset: 843X: 26 Y: 11
-2020.04.14 02:28:25,307	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 977682 Loaded: 977682
-2020.04.14 02:28:25,307	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/26_12.l2j -> region offset: 844X: 26 Y: 12
-2020.04.14 02:28:25,308	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 1388820 Loaded: 1388820
-2020.04.14 02:28:25,308	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/26_14.l2j -> region offset: 846X: 26 Y: 14
-2020.04.14 02:28:25,651	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 2747550 Loaded: 2747550
-2020.04.14 02:28:25,651	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/26_15.l2j -> region offset: 847X: 26 Y: 15
-2020.04.14 02:28:25,652	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:25,652	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/26_16.l2j -> region offset: 848X: 26 Y: 16
-2020.04.14 02:28:25,652	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
-2020.04.14 02:28:25,653	INFO	1	com.l2jfrozen.util.Util	===================================================================-[ Economy ]
-2020.04.14 02:28:26,033	CONFIG	1	com.l2jfrozen.gameserver.controllers.TradeController	TradeController: Loaded 506 Buylists.
-2020.04.14 02:28:26,033	CONFIG	1	com.l2jfrozen.gameserver.controllers.TradeController	TradeController: Loaded 132 Limited Buylists.
-2020.04.14 02:28:26,039	CONFIG	1	com.l2jfrozen.gameserver.controllers.TradeController	TradeController: Loaded 0 Custom Buylists.
-2020.04.14 02:28:26,221	INFO	1	Loader	Multisell: loaded.
-2020.04.14 02:28:26,221	INFO	1	com.l2jfrozen.util.Util	================================================================-[ Clan Halls ]
-2020.04.14 02:28:26,363	INFO	1	com.l2jfrozen.gameserver.model.entity.siege.clanhalls.FortressOfResistance	Fortress of Resistanse: siege will start the 17/04/20 21:00
-2020.04.14 02:28:26,366	INFO	1	com.l2jfrozen.gameserver.model.entity.siege.clanhalls.DevastatedCastle	Devastated Castle: siege will start the 20/04/20 18:00
-2020.04.14 02:28:26,371	INFO	1	com.l2jfrozen.gameserver.model.entity.siege.clanhalls.BanditStrongholdSiege	SiegeManager of Bandits Stronghold
-2020.04.14 02:28:26,450	INFO	1	com.l2jfrozen.util.Util	======================================================================-[ Zone ]
-2020.04.14 02:28:26,460	INFO	1	com.l2jfrozen.gameserver.datatables.xml.ZoneData	Loading zones...
-2020.04.14 02:28:26,665	INFO	1	com.l2jfrozen.gameserver.managers.TownManager	Initializing TownManager
-2020.04.14 02:28:27,352	INFO	1	com.l2jfrozen.gameserver.managers.CastleManager	Initializing CastleManager
-2020.04.14 02:28:27,380	INFO	1	com.l2jfrozen.gameserver.managers.CastleManager	Loaded: 9 castles
-2020.04.14 02:28:27,456	INFO	1	com.l2jfrozen.gameserver.managers.GrandBossManager	Initializing GrandBossManager
-2020.04.14 02:28:27,458	INFO	1	com.l2jfrozen.gameserver.managers.GrandBossManager	GrandBossManager: Loaded 15 Instances
-2020.04.14 02:28:29,255	INFO	1	com.l2jfrozen.gameserver.managers.FortManager	Initializing FortManager
-2020.04.14 02:28:29,327	INFO	1	com.l2jfrozen.gameserver.managers.FortManager	Loaded: 21 fortress
-2020.04.14 02:28:31,202	INFO	1	com.l2jfrozen.gameserver.managers.GrandBossManager	GrandBossManager: Initialized 17 Grand Boss Zones
-2020.04.14 02:28:31,202	INFO	1	com.l2jfrozen.gameserver.datatables.xml.ZoneData	Done: loaded 565 zones.
-2020.04.14 02:28:31,202	INFO	1	com.l2jfrozen.util.Util	=================================================================-[ Spawnlist ]
-2020.04.14 02:28:31,317	INFO	1	com.l2jfrozen.gameserver.managers.CustomNpcInstanceManager	CustomNpcInstanceManager: loaded 0 NPC to PC polymorphs.
-2020.04.14 02:28:33,080	INFO	1	com.l2jfrozen.gameserver.managers.DayNightSpawnManager	DayNightSpawnManager: Day/Night handler initialised
-2020.04.14 02:28:34,931	INFO	1	com.l2jfrozen.gameserver.managers.RaidBossSpawnManager	RaidBossSpawnManager: Loaded 181 Instances
-2020.04.14 02:28:34,932	INFO	1	com.l2jfrozen.gameserver.managers.RaidBossSpawnManager	RaidBossSpawnManager: Scheduled 0 Instances
-2020.04.14 02:28:34,941	INFO	1	com.l2jfrozen.gameserver.managers.DayNightSpawnManager	DayNightSpawnManager: Deleted 0 night creatures
-2020.04.14 02:28:34,985	INFO	1	com.l2jfrozen.gameserver.managers.DayNightSpawnManager	DayNightSpawnManager: Spawning 232 day creatures
-2020.04.14 02:28:34,985	INFO	1	com.l2jfrozen.util.Util	==========================================================-[ Dimensional Rift ]
-2020.04.14 02:28:34,992	INFO	1	com.l2jfrozen.gameserver.managers.DimensionalRiftManager	DimensionalRiftManager: Loaded 7 room types with 56 rooms.
-2020.04.14 02:28:35,002	INFO	1	com.l2jfrozen.gameserver.managers.DimensionalRiftManager	DimensionalRiftManager: Loaded 462 dimensional rift spawns, 0 errors.
-2020.04.14 02:28:35,003	INFO	1	com.l2jfrozen.util.Util	======================================================================-[ Misc ]
-2020.04.14 02:28:35,017	CONFIG	1	com.l2jfrozen.gameserver.datatables.csv.RecipeTable	RecipeController: Loaded 871 Recipes.
-2020.04.14 02:28:35,033	INFO	1	com.l2jfrozen.gameserver.datatables.xml.AugmentationData	Initializing AugmentationData.
-2020.04.14 02:28:35,067	INFO	1	com.l2jfrozen.gameserver.datatables.xml.AugmentationData	AugmentationData: Loaded: 52 augmentation stats.
-2020.04.14 02:28:35,069	INFO	1	com.l2jfrozen.gameserver.managers.MercTicketManager	Initializing MercTicketManager
-2020.04.14 02:28:35,077	INFO	1	com.l2jfrozen.gameserver.managers.MercTicketManager	Loaded: 0 Mercenary Tickets
-2020.04.14 02:28:35,080	INFO	1	com.l2jfrozen.gameserver.managers.CursedWeaponsManager	Initializing CursedWeaponsManager
-2020.04.14 02:28:35,086	INFO	1	com.l2jfrozen.gameserver.managers.CursedWeaponsManager	Loaded : 2 cursed weapon(s).
-2020.04.14 02:28:35,107	INFO	1	ItemsAutoDestroy	Initializing ItemsAutoDestroy.
-2020.04.14 02:28:35,108	INFO	1	com.l2jfrozen.util.Util	=====================================================================-[ Manor ]
-2020.04.14 02:28:35,111	INFO	1	com.l2jfrozen.gameserver.model.L2Manor	ManorManager: Loaded 256 seeds
-2020.04.14 02:28:35,113	INFO	1	com.l2jfrozen.gameserver.managers.CastleManorManager	Initializing CastleManorManager
-2020.04.14 02:28:35,122	INFO	1	com.l2jfrozen.util.Util	===================================================================-[ Castles ]
-2020.04.14 02:28:35,126	INFO	1	com.l2jfrozen.gameserver.managers.FortSiegeManager	Initializing FortSiegeManager
-2020.04.14 02:28:35,128	INFO	1	com.l2jfrozen.gameserver.managers.CrownManager	CrownManager: initialized
-2020.04.14 02:28:35,128	INFO	1	com.l2jfrozen.util.Util	======================================================================-[ Boat ]
-2020.04.14 02:28:35,136	INFO	1	com.l2jfrozen.util.Util	=====================================================================-[ Doors ]
-2020.04.14 02:28:35,136	INFO	1	com.l2jfrozen.gameserver.datatables.csv.DoorTable	Searching clan halls doors:
-2020.04.14 02:28:35,183	CONFIG	1	com.l2jfrozen.gameserver.datatables.csv.DoorTable	DoorTable: Loaded 1001 Door Templates.
-2020.04.14 02:28:35,184	INFO	1	com.l2jfrozen.util.Util	===========================================================-[ Four Sepulchers ]
-2020.04.14 02:28:35,188	INFO	1	com.l2jfrozen.gameserver.managers.GrandBossManager	GrandBossManager: Loaded 15 Instances
-2020.04.14 02:28:35,294	INFO	1	com.l2jfrozen.gameserver.managers.GrandBossManager	FourSepulchersManager: Beginning in Attack time
-2020.04.14 02:28:35,296	INFO	1	com.l2jfrozen.util.Util	===============================================================-[ Seven Signs ]
-2020.04.14 02:28:35,305	INFO	1	com.l2jfrozen.gameserver.model.entity.sevensigns.SevenSigns	SevenSigns: Currently in the Competition (Quest Event) period!
-2020.04.14 02:28:35,305	INFO	1	com.l2jfrozen.gameserver.model.entity.sevensigns.SevenSigns	SevenSigns: The Seal of Avarice remains unclaimed.
-2020.04.14 02:28:35,305	INFO	1	com.l2jfrozen.gameserver.model.entity.sevensigns.SevenSigns	SevenSigns: The Seal of Gnosis remains unclaimed.
-2020.04.14 02:28:35,306	INFO	1	com.l2jfrozen.gameserver.model.entity.sevensigns.SevenSigns	SevenSigns: The Seal of Strife remains unclaimed.
-2020.04.14 02:28:35,306	INFO	1	com.l2jfrozen.gameserver.model.entity.sevensigns.SevenSigns	SevenSigns: The competition, if the current trend continues, will end in a tie this week.
-2020.04.14 02:28:35,307	INFO	1	com.l2jfrozen.gameserver.model.entity.sevensigns.SevenSigns	SevenSigns: Next period begins in 6 days, 15 hours and 31 mins.
-2020.04.14 02:28:35,374	INFO	1	com.l2jfrozen.gameserver.model.entity.sevensigns.SevenSignsFestival	SevenSignsFestival: The first Festival of Darkness cycle begins in 2 minute(s).
-2020.04.14 02:28:35,374	INFO	1	com.l2jfrozen.util.Util	===========================================================-[ Olympiad System ]
-2020.04.14 02:28:35,379	INFO	1	com.l2jfrozen.gameserver.model.entity.olympiad.Olympiad	Olympiad System: Loading Olympiad System....
-2020.04.14 02:28:35,379	INFO	1	com.l2jfrozen.gameserver.model.entity.olympiad.Olympiad	Olympiad System: Currently in Olympiad Period
-2020.04.14 02:28:35,379	INFO	1	com.l2jfrozen.gameserver.model.entity.olympiad.Olympiad	Olympiad System: Period Ends....
-2020.04.14 02:28:35,379	INFO	1	com.l2jfrozen.gameserver.model.entity.olympiad.Olympiad	Olympiad System: In 25 days, 9 hours and 31 mins.
-2020.04.14 02:28:35,380	INFO	1	com.l2jfrozen.gameserver.model.entity.olympiad.Olympiad	Olympiad System: Next Weekly Change is in....
-2020.04.14 02:28:35,380	INFO	1	com.l2jfrozen.gameserver.model.entity.olympiad.Olympiad	Olympiad System: 3 days, 21 hours and 6 mins.
-2020.04.14 02:28:35,380	INFO	1	com.l2jfrozen.gameserver.model.entity.olympiad.Olympiad	Olympiad System: Loaded 0 Nobles
-2020.04.14 02:28:35,380	INFO	1	com.l2jfrozen.gameserver.model.entity.olympiad.Olympiad	Olympiad System: Competition Period Starts in 0 days, 15 hours and 32 mins.
-2020.04.14 02:28:35,381	INFO	1	com.l2jfrozen.gameserver.model.entity.olympiad.Olympiad	Olympiad System: Event starts/started : Tue Apr 14 18:00:35 ART 2020
-2020.04.14 02:28:35,385	INFO	1	com.l2jfrozen.gameserver.model.entity.Hero	Hero System: Loaded 0 Heroes.
-2020.04.14 02:28:35,385	INFO	1	com.l2jfrozen.gameserver.model.entity.Hero	Hero System: Loaded 0 all time Heroes.
-2020.04.14 02:28:35,385	INFO	1	com.l2jfrozen.util.Util	=============================================================-[ Access Levels ]
-2020.04.14 02:28:35,391	INFO	1	com.l2jfrozen.gameserver.datatables.GmListTable	GmListTable: initalized.
-2020.04.14 02:28:35,391	INFO	1	com.l2jfrozen.util.Util	==================================================================-[ Handlers ]
-2020.04.14 02:28:35,413	CONFIG	1	com.l2jfrozen.gameserver.GameServer	ItemHandler: Loaded 2044 handlers.
-2020.04.14 02:28:35,430	CONFIG	1	com.l2jfrozen.gameserver.GameServer	SkillHandler: Loaded 76 handlers.
-2020.04.14 02:28:35,483	INFO	1	com.l2jfrozen.gameserver.handler.AdminCommandHandler	AdminCommandHandler: Loaded 487 handlers.
-2020.04.14 02:28:35,488	CONFIG	1	com.l2jfrozen.gameserver.GameServer	UserCommandHandler: Loaded 14 handlers.
-2020.04.14 02:28:35,491	CONFIG	1	com.l2jfrozen.gameserver.GameServer	VoicedCommandHandler: Loaded 9 handlers.
-2020.04.14 02:28:35,491	INFO	1	Loader	AutoChatHandler : Loaded 32 handlers in total.
-2020.04.14 02:28:35,491	INFO	1	Loader	AutoSpawnHandler : Loaded 129 handlers in total.
-2020.04.14 02:28:35,494	INFO	1	com.l2jfrozen.util.Util	====================================================================-[ Quests ]
-2020.04.14 02:28:35,495	INFO	1	com.l2jfrozen.gameserver.managers.QuestManager	Initializing QuestManager
-2020.04.14 02:28:35,495	INFO	1	com.l2jfrozen.gameserver.managers.QuestManager	Loaded: 0 quests
-2020.04.14 02:28:35,495	INFO	1	com.l2jfrozen.util.Util	========================================================================-[ AI ]
-2020.04.14 02:28:35,496	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	AI load:
-2020.04.14 02:28:35,496	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Antharas_l2j
-2020.04.14 02:28:35,500	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Baium_l2j
-2020.04.14 02:28:35,503	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Core
-2020.04.14 02:28:35,510	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Queen Ant
-2020.04.14 02:28:35,513	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Van Halter
-2020.04.14 02:28:35,529	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Gordon
-2020.04.14 02:28:35,530	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Monastery_l2j
-2020.04.14 02:28:35,531	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Transform
-2020.04.14 02:28:35,532	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Fairy Trees
-2020.04.14 02:28:35,533	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Summon Minions
-2020.04.14 02:28:35,534	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Zombie Gatekeepers
-2020.04.14 02:28:35,535	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Ice Fairy Sirra
-2020.04.14 02:28:35,545	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Golkonda
-2020.04.14 02:28:35,546	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Hallate
-2020.04.14 02:28:35,547	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Kernon
-2020.04.14 02:28:35,547	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Varka/Ketra Ally
-2020.04.14 02:28:35,548	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Barakiel
-2020.04.14 02:28:35,549	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Orfen
-2020.04.14 02:28:35,551	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Zaken_l2j
-2020.04.14 02:28:35,554	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Frintezza_l2j
-2020.04.14 02:28:35,558	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Valakas_l2j
-2020.04.14 02:28:35,560	INFO	1	com.l2jfrozen.util.Util	===================================================================-[ Scripts ]
-2020.04.14 02:28:36,714	INFO	1	com.l2jfrozen.gameserver.managers.QuestManager	Replaced: SagasSuperclass with a new version
-2020.04.14 02:28:41,457	INFO	1	Loader	Compiled Scripts Cache is disabled.
-2020.04.14 02:28:41,460	INFO	1	com.l2jfrozen.gameserver.script.faenor.FaenorScriptEngine	[FeanorScriptEngine] Loading Packages ...
-2020.04.14 02:28:41,461	INFO	1	com.l2jfrozen.gameserver.script.faenor.FaenorScriptEngine	[FeanorScriptEngine] No Packages Loaded ...
-2020.04.14 02:28:41,473	INFO	1	com.l2jfrozen.util.Util	===============================================================-[ Game Server ]
-2020.04.14 02:28:41,474	INFO	1	Loader	IdFactory: Free ObjectID's remaining: 1879005121
-2020.04.14 02:28:41,476	INFO	1	com.l2jfrozen.util.Util	===============================================================-[ Custom Mods ]
-2020.04.14 02:28:41,476	INFO	1	Loader	Wedding Manager is Disabled
-2020.04.14 02:28:41,480	INFO	1	com.l2jfrozen.util.Util	==================================================================-[ PowerPak ]
-2020.04.14 02:28:41,493	INFO	1	com.l2jfrozen.util.Util	==============================================================-[ EventManager ]
-2020.04.14 02:28:41,503	INFO	1	com.l2jfrozen.util.Util	======================================================================-[ Info ]
-2020.04.14 02:28:41,503	INFO	1	Loader	Operating System: Windows 7 6.1 amd64
-2020.04.14 02:28:41,503	INFO	1	Loader	Available CPUs: 4
-2020.04.14 02:28:41,504	INFO	1	Loader	Maximum Numbers of Connected Players: 1000
-2020.04.14 02:28:41,504	INFO	1	Loader	GameServer Started, free memory 618 Mb of 998 Mb
-2020.04.14 02:28:41,504	INFO	1	Loader	Used memory: 380 MB
-2020.04.14 02:28:41,505	INFO	1	com.l2jfrozen.util.Util	====================================================================-[ Status ]
-2020.04.14 02:28:42,696	INFO	1	Loader	Server Loaded in 23 seconds
-2020.04.14 02:28:42,699	INFO	1	Loader	ServerStatus started!
-2020.04.14 02:28:42,699	INFO	1	com.l2jfrozen.util.Util	=====================================================================-[ Login ]
-2020.04.14 02:28:42,706	INFO	50	com.l2jfrozen.gameserver.thread.LoginServerThread	Connecting to login on 127.0.0.1:9014
-2020.04.14 02:28:42,986	INFO	50	com.l2jfrozen.gameserver.thread.LoginServerThread	Registered on login as Server 1 : Extreme
-2020.04.14 02:28:59,488	WARNING	57	com.l2jfrozen.gameserver.model.L2Character	Admin Login at 2:28. SEBALANGA logs in game with AccessLevel 1.
-2020.04.14 02:28:59,516	WARNING	57	com.l2jfrozen.gameserver.model.L2Character	Error could not store char skills: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '268478191-9999-0' for key 'PRIMARY'
-2020.04.14 02:29:04,250	WARNING	59	com.l2jfrozen.gameserver.model.L2Character	ATTENTION: Bot Checker is bad configured because config/questionwords.txt has 0 words of 6 to 15 keys
+2020.04.14 23:26:15,465	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_10.l2j -> region offset: 522X: 16 Y: 10
+2020.04.14 23:26:15,801	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 16816814 Loaded: 16816814
+2020.04.14 23:26:15,802	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_11.l2j -> region offset: 523X: 16 Y: 11
+2020.04.14 23:26:15,855	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 1601630 Loaded: 1601630
+2020.04.14 23:26:15,855	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_12.l2j -> region offset: 524X: 16 Y: 12
+2020.04.14 23:26:15,919	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 1353668 Loaded: 1353668
+2020.04.14 23:26:15,920	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_13.l2j -> region offset: 525X: 16 Y: 13
+2020.04.14 23:26:15,959	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:15,960	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_14.l2j -> region offset: 526X: 16 Y: 14
+2020.04.14 23:26:15,971	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:15,971	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_15.l2j -> region offset: 527X: 16 Y: 15
+2020.04.14 23:26:15,974	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:15,974	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_16.l2j -> region offset: 528X: 16 Y: 16
+2020.04.14 23:26:15,976	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:15,976	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_17.l2j -> region offset: 529X: 16 Y: 17
+2020.04.14 23:26:15,978	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:15,979	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_18.l2j -> region offset: 530X: 16 Y: 18
+2020.04.14 23:26:15,981	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:15,981	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_19.l2j -> region offset: 531X: 16 Y: 19
+2020.04.14 23:26:15,983	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:15,983	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_20.l2j -> region offset: 532X: 16 Y: 20
+2020.04.14 23:26:15,997	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 223068 Loaded: 223068
+2020.04.14 23:26:15,998	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_21.l2j -> region offset: 533X: 16 Y: 21
+2020.04.14 23:26:16,022	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 516482 Loaded: 516482
+2020.04.14 23:26:16,023	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_22.l2j -> region offset: 534X: 16 Y: 22
+2020.04.14 23:26:16,025	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:16,025	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_23.l2j -> region offset: 535X: 16 Y: 23
+2020.04.14 23:26:16,027	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:16,028	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_24.l2j -> region offset: 536X: 16 Y: 24
+2020.04.14 23:26:16,045	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 1450518 Loaded: 1450518
+2020.04.14 23:26:16,046	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_25.l2j -> region offset: 537X: 16 Y: 25
+2020.04.14 23:26:16,077	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 2138002 Loaded: 2138002
+2020.04.14 23:26:16,078	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/16_26.l2j -> region offset: 538X: 16 Y: 26
+2020.04.14 23:26:16,081	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:16,081	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_10.l2j -> region offset: 554X: 17 Y: 10
+2020.04.14 23:26:16,115	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 1598462 Loaded: 1598462
+2020.04.14 23:26:16,116	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_11.l2j -> region offset: 555X: 17 Y: 11
+2020.04.14 23:26:16,133	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 1633812 Loaded: 1633812
+2020.04.14 23:26:16,134	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_12.l2j -> region offset: 556X: 17 Y: 12
+2020.04.14 23:26:16,137	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:16,137	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_13.l2j -> region offset: 557X: 17 Y: 13
+2020.04.14 23:26:16,139	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:16,140	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_14.l2j -> region offset: 558X: 17 Y: 14
+2020.04.14 23:26:16,141	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:16,142	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_15.l2j -> region offset: 559X: 17 Y: 15
+2020.04.14 23:26:16,145	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:16,145	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_16.l2j -> region offset: 560X: 17 Y: 16
+2020.04.14 23:26:16,148	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:16,148	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_17.l2j -> region offset: 561X: 17 Y: 17
+2020.04.14 23:26:16,150	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:16,150	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_18.l2j -> region offset: 562X: 17 Y: 18
+2020.04.14 23:26:16,153	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:16,153	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_19.l2j -> region offset: 563X: 17 Y: 19
+2020.04.14 23:26:16,156	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:16,156	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_20.l2j -> region offset: 564X: 17 Y: 20
+2020.04.14 23:26:16,198	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 3314810 Loaded: 3314810
+2020.04.14 23:26:16,199	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_21.l2j -> region offset: 565X: 17 Y: 21
+2020.04.14 23:26:16,251	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 4570950 Loaded: 4570950
+2020.04.14 23:26:16,252	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_22.l2j -> region offset: 566X: 17 Y: 22
+2020.04.14 23:26:16,301	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 4353056 Loaded: 4353056
+2020.04.14 23:26:16,301	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_23.l2j -> region offset: 567X: 17 Y: 23
+2020.04.14 23:26:16,311	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 902280 Loaded: 902280
+2020.04.14 23:26:16,311	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_24.l2j -> region offset: 568X: 17 Y: 24
+2020.04.14 23:26:16,316	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 278004 Loaded: 278004
+2020.04.14 23:26:16,316	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_25.l2j -> region offset: 569X: 17 Y: 25
+2020.04.14 23:26:16,456	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 2285538 Loaded: 2285538
+2020.04.14 23:26:16,457	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/17_26.l2j -> region offset: 570X: 17 Y: 26
+2020.04.14 23:26:16,459	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:16,460	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_10.l2j -> region offset: 586X: 18 Y: 10
+2020.04.14 23:26:16,512	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 8 Size: 3826426 Loaded: 3826426
+2020.04.14 23:26:16,513	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_11.l2j -> region offset: 587X: 18 Y: 11
+2020.04.14 23:26:16,515	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:16,516	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_12.l2j -> region offset: 588X: 18 Y: 12
+2020.04.14 23:26:16,518	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:16,518	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_13.l2j -> region offset: 589X: 18 Y: 13
+2020.04.14 23:26:16,521	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:16,521	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_14.l2j -> region offset: 590X: 18 Y: 14
+2020.04.14 23:26:16,573	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 4318008 Loaded: 4318008
+2020.04.14 23:26:16,574	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_15.l2j -> region offset: 591X: 18 Y: 15
+2020.04.14 23:26:16,576	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:16,577	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_16.l2j -> region offset: 592X: 18 Y: 16
+2020.04.14 23:26:16,579	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:16,579	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_17.l2j -> region offset: 593X: 18 Y: 17
+2020.04.14 23:26:16,582	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:16,583	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_18.l2j -> region offset: 594X: 18 Y: 18
+2020.04.14 23:26:16,585	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:16,585	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_19.l2j -> region offset: 595X: 18 Y: 19
+2020.04.14 23:26:16,627	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 3277650 Loaded: 3277650
+2020.04.14 23:26:16,627	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_20.l2j -> region offset: 596X: 18 Y: 20
+2020.04.14 23:26:16,689	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 4368058 Loaded: 4368058
+2020.04.14 23:26:16,689	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_21.l2j -> region offset: 597X: 18 Y: 21
+2020.04.14 23:26:16,763	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 4257062 Loaded: 4257062
+2020.04.14 23:26:16,763	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_22.l2j -> region offset: 598X: 18 Y: 22
+2020.04.14 23:26:16,845	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 5695118 Loaded: 5695118
+2020.04.14 23:26:16,845	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_23.l2j -> region offset: 599X: 18 Y: 23
+2020.04.14 23:26:16,923	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 5262180 Loaded: 5262180
+2020.04.14 23:26:16,923	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_24.l2j -> region offset: 600X: 18 Y: 24
+2020.04.14 23:26:16,973	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 3516124 Loaded: 3516124
+2020.04.14 23:26:16,973	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_25.l2j -> region offset: 601X: 18 Y: 25
+2020.04.14 23:26:16,976	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 228612 Loaded: 228612
+2020.04.14 23:26:16,977	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/18_26.l2j -> region offset: 602X: 18 Y: 26
+2020.04.14 23:26:16,993	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:16,993	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_10.l2j -> region offset: 618X: 19 Y: 10
+2020.04.14 23:26:17,223	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 8 Size: 3873432 Loaded: 3873432
+2020.04.14 23:26:17,223	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_11.l2j -> region offset: 619X: 19 Y: 11
+2020.04.14 23:26:17,225	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:17,225	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_12.l2j -> region offset: 620X: 19 Y: 12
+2020.04.14 23:26:17,227	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:17,227	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_13.l2j -> region offset: 621X: 19 Y: 13
+2020.04.14 23:26:17,265	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 3402602 Loaded: 3402602
+2020.04.14 23:26:17,266	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_14.l2j -> region offset: 622X: 19 Y: 14
+2020.04.14 23:26:17,326	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 4693466 Loaded: 4693466
+2020.04.14 23:26:17,326	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_15.l2j -> region offset: 623X: 19 Y: 15
+2020.04.14 23:26:17,377	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 3936872 Loaded: 3936872
+2020.04.14 23:26:17,378	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_16.l2j -> region offset: 624X: 19 Y: 16
+2020.04.14 23:26:17,424	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 3466828 Loaded: 3466828
+2020.04.14 23:26:17,424	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_17.l2j -> region offset: 625X: 19 Y: 17
+2020.04.14 23:26:17,459	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 1269380 Loaded: 1269380
+2020.04.14 23:26:17,459	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_18.l2j -> region offset: 626X: 19 Y: 18
+2020.04.14 23:26:17,713	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 4882924 Loaded: 4882924
+2020.04.14 23:26:17,714	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_19.l2j -> region offset: 627X: 19 Y: 19
+2020.04.14 23:26:17,748	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 2566634 Loaded: 2566634
+2020.04.14 23:26:17,749	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_20.l2j -> region offset: 628X: 19 Y: 20
+2020.04.14 23:26:17,799	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 3724650 Loaded: 3724650
+2020.04.14 23:26:17,799	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_21.l2j -> region offset: 629X: 19 Y: 21
+2020.04.14 23:26:17,842	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 3332632 Loaded: 3332632
+2020.04.14 23:26:17,842	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_22.l2j -> region offset: 630X: 19 Y: 22
+2020.04.14 23:26:17,903	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 4630154 Loaded: 4630154
+2020.04.14 23:26:17,903	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_23.l2j -> region offset: 631X: 19 Y: 23
+2020.04.14 23:26:18,074	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 11 Size: 9498762 Loaded: 9498762
+2020.04.14 23:26:18,074	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_24.l2j -> region offset: 632X: 19 Y: 24
+2020.04.14 23:26:18,114	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 2870100 Loaded: 2870100
+2020.04.14 23:26:18,114	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_25.l2j -> region offset: 633X: 19 Y: 25
+2020.04.14 23:26:18,116	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:18,117	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/19_26.l2j -> region offset: 634X: 19 Y: 26
+2020.04.14 23:26:18,119	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:18,119	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_10.l2j -> region offset: 650X: 20 Y: 10
+2020.04.14 23:26:18,145	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 8 Size: 2071990 Loaded: 2071990
+2020.04.14 23:26:18,145	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_11.l2j -> region offset: 651X: 20 Y: 11
+2020.04.14 23:26:18,148	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:18,148	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_12.l2j -> region offset: 652X: 20 Y: 12
+2020.04.14 23:26:18,150	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:18,150	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_13.l2j -> region offset: 653X: 20 Y: 13
+2020.04.14 23:26:18,209	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 4223650 Loaded: 4223650
+2020.04.14 23:26:18,210	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_14.l2j -> region offset: 654X: 20 Y: 14
+2020.04.14 23:26:18,343	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 7877620 Loaded: 7877620
+2020.04.14 23:26:18,344	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_15.l2j -> region offset: 655X: 20 Y: 15
+2020.04.14 23:26:18,400	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 3932294 Loaded: 3932294
+2020.04.14 23:26:18,401	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_16.l2j -> region offset: 656X: 20 Y: 16
+2020.04.14 23:26:18,451	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 9 Size: 3504878 Loaded: 3504878
+2020.04.14 23:26:18,452	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_17.l2j -> region offset: 657X: 20 Y: 17
+2020.04.14 23:26:18,538	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 5709916 Loaded: 5709916
+2020.04.14 23:26:18,539	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_18.l2j -> region offset: 658X: 20 Y: 18
+2020.04.14 23:26:18,617	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 3619170 Loaded: 3619170
+2020.04.14 23:26:18,617	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_19.l2j -> region offset: 659X: 20 Y: 19
+2020.04.14 23:26:18,662	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 2651036 Loaded: 2651036
+2020.04.14 23:26:18,663	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_20.l2j -> region offset: 660X: 20 Y: 20
+2020.04.14 23:26:18,749	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 5135826 Loaded: 5135826
+2020.04.14 23:26:18,750	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_21.l2j -> region offset: 661X: 20 Y: 21
+2020.04.14 23:26:18,918	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 9 Size: 9843752 Loaded: 9843752
+2020.04.14 23:26:18,918	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_22.l2j -> region offset: 662X: 20 Y: 22
+2020.04.14 23:26:18,996	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 4832250 Loaded: 4832250
+2020.04.14 23:26:18,996	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_23.l2j -> region offset: 663X: 20 Y: 23
+2020.04.14 23:26:19,043	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 3431390 Loaded: 3431390
+2020.04.14 23:26:19,043	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_24.l2j -> region offset: 664X: 20 Y: 24
+2020.04.14 23:26:19,070	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:19,071	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_25.l2j -> region offset: 665X: 20 Y: 25
+2020.04.14 23:26:19,073	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:19,073	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/20_26.l2j -> region offset: 666X: 20 Y: 26
+2020.04.14 23:26:19,077	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:19,077	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_10.l2j -> region offset: 682X: 21 Y: 10
+2020.04.14 23:26:19,079	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:19,079	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_11.l2j -> region offset: 683X: 21 Y: 11
+2020.04.14 23:26:19,081	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:19,081	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_12.l2j -> region offset: 684X: 21 Y: 12
+2020.04.14 23:26:19,099	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:19,100	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_13.l2j -> region offset: 685X: 21 Y: 13
+2020.04.14 23:26:19,103	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 284682 Loaded: 284682
+2020.04.14 23:26:19,104	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_14.l2j -> region offset: 686X: 21 Y: 14
+2020.04.14 23:26:19,398	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 7660720 Loaded: 7660720
+2020.04.14 23:26:19,398	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_15.l2j -> region offset: 687X: 21 Y: 15
+2020.04.14 23:26:19,549	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 6861616 Loaded: 6861616
+2020.04.14 23:26:19,550	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_16.l2j -> region offset: 688X: 21 Y: 16
+2020.04.14 23:26:19,683	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 10 Size: 7195714 Loaded: 7195714
+2020.04.14 23:26:19,684	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_17.l2j -> region offset: 689X: 21 Y: 17
+2020.04.14 23:26:19,726	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 1782142 Loaded: 1782142
+2020.04.14 23:26:19,726	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_18.l2j -> region offset: 690X: 21 Y: 18
+2020.04.14 23:26:20,103	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 6043604 Loaded: 6043604
+2020.04.14 23:26:20,104	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_19.l2j -> region offset: 691X: 21 Y: 19
+2020.04.14 23:26:20,368	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 2869586 Loaded: 2869586
+2020.04.14 23:26:20,369	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_20.l2j -> region offset: 692X: 21 Y: 20
+2020.04.14 23:26:20,395	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 3781162 Loaded: 3781162
+2020.04.14 23:26:20,395	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_21.l2j -> region offset: 693X: 21 Y: 21
+2020.04.14 23:26:20,675	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 7233862 Loaded: 7233862
+2020.04.14 23:26:20,676	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_22.l2j -> region offset: 694X: 21 Y: 22
+2020.04.14 23:26:20,766	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 5973246 Loaded: 5973246
+2020.04.14 23:26:20,766	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_23.l2j -> region offset: 695X: 21 Y: 23
+2020.04.14 23:26:20,847	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 5335506 Loaded: 5335506
+2020.04.14 23:26:20,847	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_24.l2j -> region offset: 696X: 21 Y: 24
+2020.04.14 23:26:20,969	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 6419744 Loaded: 6419744
+2020.04.14 23:26:20,969	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/21_25.l2j -> region offset: 697X: 21 Y: 25
+2020.04.14 23:26:20,995	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 751114 Loaded: 751114
+2020.04.14 23:26:20,995	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_13.l2j -> region offset: 717X: 22 Y: 13
+2020.04.14 23:26:21,463	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 6344024 Loaded: 6344024
+2020.04.14 23:26:21,464	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_14.l2j -> region offset: 718X: 22 Y: 14
+2020.04.14 23:26:21,742	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 7792440 Loaded: 7792440
+2020.04.14 23:26:21,743	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_15.l2j -> region offset: 719X: 22 Y: 15
+2020.04.14 23:26:22,022	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 7761592 Loaded: 7761592
+2020.04.14 23:26:22,022	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_16.l2j -> region offset: 720X: 22 Y: 16
+2020.04.14 23:26:22,187	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 12006282 Loaded: 12006282
+2020.04.14 23:26:22,188	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_17.l2j -> region offset: 721X: 22 Y: 17
+2020.04.14 23:26:22,272	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 4638198 Loaded: 4638198
+2020.04.14 23:26:22,272	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_18.l2j -> region offset: 722X: 22 Y: 18
+2020.04.14 23:26:22,515	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 9 Size: 4226282 Loaded: 4226282
+2020.04.14 23:26:22,516	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_19.l2j -> region offset: 723X: 22 Y: 19
+2020.04.14 23:26:22,768	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 4035796 Loaded: 4035796
+2020.04.14 23:26:22,768	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_20.l2j -> region offset: 724X: 22 Y: 20
+2020.04.14 23:26:22,797	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 3394924 Loaded: 3394924
+2020.04.14 23:26:22,798	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_21.l2j -> region offset: 725X: 22 Y: 21
+2020.04.14 23:26:23,057	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 8 Size: 4813790 Loaded: 4813790
+2020.04.14 23:26:23,058	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_22.l2j -> region offset: 726X: 22 Y: 22
+2020.04.14 23:26:23,095	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 5563560 Loaded: 5563560
+2020.04.14 23:26:23,095	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_23.l2j -> region offset: 727X: 22 Y: 23
+2020.04.14 23:26:23,281	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 4409314 Loaded: 4409314
+2020.04.14 23:26:23,282	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_24.l2j -> region offset: 728X: 22 Y: 24
+2020.04.14 23:26:23,348	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 3935170 Loaded: 3935170
+2020.04.14 23:26:23,349	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_25.l2j -> region offset: 729X: 22 Y: 25
+2020.04.14 23:26:23,652	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 5374500 Loaded: 5374500
+2020.04.14 23:26:23,652	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/22_26.l2j -> region offset: 730X: 22 Y: 26
+2020.04.14 23:26:23,655	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:23,655	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_10.l2j -> region offset: 746X: 23 Y: 10
+2020.04.14 23:26:23,671	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 276870 Loaded: 276870
+2020.04.14 23:26:23,671	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_11.l2j -> region offset: 747X: 23 Y: 11
+2020.04.14 23:26:23,851	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 3265184 Loaded: 3265184
+2020.04.14 23:26:23,851	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_12.l2j -> region offset: 748X: 23 Y: 12
+2020.04.14 23:26:23,954	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 7139550 Loaded: 7139550
+2020.04.14 23:26:23,955	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_13.l2j -> region offset: 749X: 23 Y: 13
+2020.04.14 23:26:24,047	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 6485174 Loaded: 6485174
+2020.04.14 23:26:24,048	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_14.l2j -> region offset: 750X: 23 Y: 14
+2020.04.14 23:26:24,296	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 7548792 Loaded: 7548792
+2020.04.14 23:26:24,296	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_15.l2j -> region offset: 751X: 23 Y: 15
+2020.04.14 23:26:24,435	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 10894422 Loaded: 10894422
+2020.04.14 23:26:24,435	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_16.l2j -> region offset: 752X: 23 Y: 16
+2020.04.14 23:26:24,514	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 6424884 Loaded: 6424884
+2020.04.14 23:26:24,515	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_17.l2j -> region offset: 753X: 23 Y: 17
+2020.04.14 23:26:24,643	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 6472620 Loaded: 6472620
+2020.04.14 23:26:24,643	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_18.l2j -> region offset: 754X: 23 Y: 18
+2020.04.14 23:26:24,772	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 21 Size: 8017312 Loaded: 8017312
+2020.04.14 23:26:24,773	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_19.l2j -> region offset: 755X: 23 Y: 19
+2020.04.14 23:26:24,884	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 7039468 Loaded: 7039468
+2020.04.14 23:26:24,884	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_20.l2j -> region offset: 756X: 23 Y: 20
+2020.04.14 23:26:24,999	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 7313328 Loaded: 7313328
+2020.04.14 23:26:24,999	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_21.l2j -> region offset: 757X: 23 Y: 21
+2020.04.14 23:26:25,112	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 5915114 Loaded: 5915114
+2020.04.14 23:26:25,112	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_22.l2j -> region offset: 758X: 23 Y: 22
+2020.04.14 23:26:25,366	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 4418070 Loaded: 4418070
+2020.04.14 23:26:25,366	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_23.l2j -> region offset: 759X: 23 Y: 23
+2020.04.14 23:26:25,434	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 5295316 Loaded: 5295316
+2020.04.14 23:26:25,435	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_24.l2j -> region offset: 760X: 23 Y: 24
+2020.04.14 23:26:25,492	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 4671462 Loaded: 4671462
+2020.04.14 23:26:25,492	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_25.l2j -> region offset: 761X: 23 Y: 25
+2020.04.14 23:26:25,512	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 3264202 Loaded: 3264202
+2020.04.14 23:26:25,512	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/23_26.l2j -> region offset: 762X: 23 Y: 26
+2020.04.14 23:26:25,513	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:25,514	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_10.l2j -> region offset: 778X: 24 Y: 10
+2020.04.14 23:26:25,668	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 262506 Loaded: 262506
+2020.04.14 23:26:25,668	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_11.l2j -> region offset: 779X: 24 Y: 11
+2020.04.14 23:26:25,693	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 3 Size: 3305300 Loaded: 3305300
+2020.04.14 23:26:25,693	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_12.l2j -> region offset: 780X: 24 Y: 12
+2020.04.14 23:26:26,043	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 11142898 Loaded: 11142898
+2020.04.14 23:26:26,044	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_13.l2j -> region offset: 781X: 24 Y: 13
+2020.04.14 23:26:26,088	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 2186778 Loaded: 2186778
+2020.04.14 23:26:26,088	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_14.l2j -> region offset: 782X: 24 Y: 14
+2020.04.14 23:26:26,831	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 6155286 Loaded: 6155286
+2020.04.14 23:26:26,831	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_15.l2j -> region offset: 783X: 24 Y: 15
+2020.04.14 23:26:26,902	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 5781964 Loaded: 5781964
+2020.04.14 23:26:26,902	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_16.l2j -> region offset: 784X: 24 Y: 16
+2020.04.14 23:26:27,000	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 5839078 Loaded: 5839078
+2020.04.14 23:26:27,000	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_17.l2j -> region offset: 785X: 24 Y: 17
+2020.04.14 23:26:27,136	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 5651342 Loaded: 5651342
+2020.04.14 23:26:27,136	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_18.l2j -> region offset: 786X: 24 Y: 18
+2020.04.14 23:26:27,204	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 4063066 Loaded: 4063066
+2020.04.14 23:26:27,205	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_19.l2j -> region offset: 787X: 24 Y: 19
+2020.04.14 23:26:27,260	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 3335538 Loaded: 3335538
+2020.04.14 23:26:27,260	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_20.l2j -> region offset: 788X: 24 Y: 20
+2020.04.14 23:26:27,397	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 7885768 Loaded: 7885768
+2020.04.14 23:26:27,397	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_21.l2j -> region offset: 789X: 24 Y: 21
+2020.04.14 23:26:27,464	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 4 Size: 4126332 Loaded: 4126332
+2020.04.14 23:26:27,464	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_22.l2j -> region offset: 790X: 24 Y: 22
+2020.04.14 23:26:27,516	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 2483886 Loaded: 2483886
+2020.04.14 23:26:27,517	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_23.l2j -> region offset: 791X: 24 Y: 23
+2020.04.14 23:26:27,525	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 2 Size: 720254 Loaded: 720254
+2020.04.14 23:26:27,525	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_24.l2j -> region offset: 792X: 24 Y: 24
+2020.04.14 23:26:27,528	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 340626 Loaded: 340626
+2020.04.14 23:26:27,528	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_25.l2j -> region offset: 793X: 24 Y: 25
+2020.04.14 23:26:27,741	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 586578 Loaded: 586578
+2020.04.14 23:26:27,742	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/24_26.l2j -> region offset: 794X: 24 Y: 26
+2020.04.14 23:26:27,890	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:27,890	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_10.l2j -> region offset: 810X: 25 Y: 10
+2020.04.14 23:26:27,891	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:27,892	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_11.l2j -> region offset: 811X: 25 Y: 11
+2020.04.14 23:26:28,204	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 7 Size: 3659954 Loaded: 3659954
+2020.04.14 23:26:28,204	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_12.l2j -> region offset: 812X: 25 Y: 12
+2020.04.14 23:26:28,548	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 8 Size: 13722452 Loaded: 13722452
+2020.04.14 23:26:28,548	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_14.l2j -> region offset: 814X: 25 Y: 14
+2020.04.14 23:26:28,746	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 13850476 Loaded: 13850476
+2020.04.14 23:26:28,747	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_15.l2j -> region offset: 815X: 25 Y: 15
+2020.04.14 23:26:28,965	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 12010470 Loaded: 12010470
+2020.04.14 23:26:28,965	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_16.l2j -> region offset: 816X: 25 Y: 16
+2020.04.14 23:26:29,070	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 6498272 Loaded: 6498272
+2020.04.14 23:26:29,071	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_17.l2j -> region offset: 817X: 25 Y: 17
+2020.04.14 23:26:29,217	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 8580214 Loaded: 8580214
+2020.04.14 23:26:29,217	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_18.l2j -> region offset: 818X: 25 Y: 18
+2020.04.14 23:26:29,284	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 4095078 Loaded: 4095078
+2020.04.14 23:26:29,285	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_19.l2j -> region offset: 819X: 25 Y: 19
+2020.04.14 23:26:29,422	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 9445748 Loaded: 9445748
+2020.04.14 23:26:29,423	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_20.l2j -> region offset: 820X: 25 Y: 20
+2020.04.14 23:26:29,477	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 2397506 Loaded: 2397506
+2020.04.14 23:26:29,477	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/25_21.l2j -> region offset: 821X: 25 Y: 21
+2020.04.14 23:26:29,551	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 6 Size: 4703208 Loaded: 4703208
+2020.04.14 23:26:29,551	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/26_11.l2j -> region offset: 843X: 26 Y: 11
+2020.04.14 23:26:29,735	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 977682 Loaded: 977682
+2020.04.14 23:26:29,735	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/26_12.l2j -> region offset: 844X: 26 Y: 12
+2020.04.14 23:26:29,774	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 1388820 Loaded: 1388820
+2020.04.14 23:26:29,774	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/26_14.l2j -> region offset: 846X: 26 Y: 14
+2020.04.14 23:26:30,040	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 5 Size: 2747550 Loaded: 2747550
+2020.04.14 23:26:30,040	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/26_15.l2j -> region offset: 847X: 26 Y: 15
+2020.04.14 23:26:30,042	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:30,042	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Loading: data/geodata/26_16.l2j -> region offset: 848X: 26 Y: 16
+2020.04.14 23:26:30,247	INFO	1	com.l2jfrozen.gameserver.geo.GeoData	Geo Engine: - Max Layers: 0 Size: 196608 Loaded: 0
+2020.04.14 23:26:30,261	INFO	1	com.l2jfrozen.util.Util	===================================================================-[ Economy ]
+2020.04.14 23:26:30,838	CONFIG	1	com.l2jfrozen.gameserver.controllers.TradeController	TradeController: Loaded 506 Buylists.
+2020.04.14 23:26:30,838	CONFIG	1	com.l2jfrozen.gameserver.controllers.TradeController	TradeController: Loaded 132 Limited Buylists.
+2020.04.14 23:26:30,842	CONFIG	1	com.l2jfrozen.gameserver.controllers.TradeController	TradeController: Loaded 0 Custom Buylists.
+2020.04.14 23:26:31,298	INFO	1	Loader	Multisell: loaded.
+2020.04.14 23:26:31,299	INFO	1	com.l2jfrozen.util.Util	================================================================-[ Clan Halls ]
+2020.04.14 23:26:31,385	INFO	1	com.l2jfrozen.gameserver.model.entity.siege.clanhalls.FortressOfResistance	Fortress of Resistanse: siege will start the 17/04/20 21:00
+2020.04.14 23:26:31,390	INFO	1	com.l2jfrozen.gameserver.model.entity.siege.clanhalls.DevastatedCastle	Devastated Castle: siege will start the 20/04/20 18:00
+2020.04.14 23:26:31,396	INFO	1	com.l2jfrozen.gameserver.model.entity.siege.clanhalls.BanditStrongholdSiege	SiegeManager of Bandits Stronghold
+2020.04.14 23:26:31,434	INFO	1	com.l2jfrozen.util.Util	======================================================================-[ Zone ]
+2020.04.14 23:26:31,445	INFO	1	com.l2jfrozen.gameserver.datatables.xml.ZoneData	Loading zones...
+2020.04.14 23:26:31,690	INFO	1	com.l2jfrozen.gameserver.managers.TownManager	Initializing TownManager
+2020.04.14 23:26:32,413	INFO	1	com.l2jfrozen.gameserver.managers.CastleManager	Initializing CastleManager
+2020.04.14 23:26:32,440	INFO	1	com.l2jfrozen.gameserver.managers.CastleManager	Loaded: 9 castles
+2020.04.14 23:26:32,518	INFO	1	com.l2jfrozen.gameserver.managers.GrandBossManager	Initializing GrandBossManager
+2020.04.14 23:26:32,520	INFO	1	com.l2jfrozen.gameserver.managers.GrandBossManager	GrandBossManager: Loaded 15 Instances
+2020.04.14 23:26:34,371	INFO	1	com.l2jfrozen.gameserver.managers.FortManager	Initializing FortManager
+2020.04.14 23:26:34,414	INFO	1	com.l2jfrozen.gameserver.managers.FortManager	Loaded: 21 fortress
+2020.04.14 23:26:35,918	INFO	1	com.l2jfrozen.gameserver.managers.GrandBossManager	GrandBossManager: Initialized 17 Grand Boss Zones
+2020.04.14 23:26:35,919	INFO	1	com.l2jfrozen.gameserver.datatables.xml.ZoneData	Done: loaded 565 zones.
+2020.04.14 23:26:35,920	INFO	1	com.l2jfrozen.util.Util	=================================================================-[ Spawnlist ]
+2020.04.14 23:26:36,037	INFO	1	com.l2jfrozen.gameserver.managers.CustomNpcInstanceManager	CustomNpcInstanceManager: loaded 0 NPC to PC polymorphs.
+2020.04.14 23:26:37,919	INFO	1	com.l2jfrozen.gameserver.managers.DayNightSpawnManager	DayNightSpawnManager: Day/Night handler initialised
+2020.04.14 23:26:39,795	INFO	1	com.l2jfrozen.gameserver.managers.RaidBossSpawnManager	RaidBossSpawnManager: Loaded 181 Instances
+2020.04.14 23:26:39,796	INFO	1	com.l2jfrozen.gameserver.managers.RaidBossSpawnManager	RaidBossSpawnManager: Scheduled 0 Instances
+2020.04.14 23:26:39,799	INFO	1	com.l2jfrozen.gameserver.managers.DayNightSpawnManager	DayNightSpawnManager: Deleted 0 night creatures
+2020.04.14 23:26:39,804	INFO	1	com.l2jfrozen.gameserver.managers.DayNightSpawnManager	DayNightSpawnManager: Spawning 232 day creatures
+2020.04.14 23:26:39,805	INFO	1	com.l2jfrozen.util.Util	==========================================================-[ Dimensional Rift ]
+2020.04.14 23:26:39,809	INFO	1	com.l2jfrozen.gameserver.managers.DimensionalRiftManager	DimensionalRiftManager: Loaded 7 room types with 56 rooms.
+2020.04.14 23:26:39,834	INFO	1	com.l2jfrozen.gameserver.managers.DimensionalRiftManager	DimensionalRiftManager: Loaded 462 dimensional rift spawns, 0 errors.
+2020.04.14 23:26:39,834	INFO	1	com.l2jfrozen.util.Util	======================================================================-[ Misc ]
+2020.04.14 23:26:39,866	CONFIG	1	com.l2jfrozen.gameserver.datatables.csv.RecipeTable	RecipeController: Loaded 871 Recipes.
+2020.04.14 23:26:39,870	INFO	1	com.l2jfrozen.gameserver.datatables.xml.AugmentationData	Initializing AugmentationData.
+2020.04.14 23:26:39,925	INFO	1	com.l2jfrozen.gameserver.datatables.xml.AugmentationData	AugmentationData: Loaded: 52 augmentation stats.
+2020.04.14 23:26:39,928	INFO	1	com.l2jfrozen.gameserver.managers.MercTicketManager	Initializing MercTicketManager
+2020.04.14 23:26:39,937	INFO	1	com.l2jfrozen.gameserver.managers.MercTicketManager	Loaded: 0 Mercenary Tickets
+2020.04.14 23:26:39,942	INFO	1	com.l2jfrozen.gameserver.managers.CursedWeaponsManager	Initializing CursedWeaponsManager
+2020.04.14 23:26:39,958	INFO	1	com.l2jfrozen.gameserver.managers.CursedWeaponsManager	Loaded : 2 cursed weapon(s).
+2020.04.14 23:26:39,984	INFO	1	ItemsAutoDestroy	Initializing ItemsAutoDestroy.
+2020.04.14 23:26:39,985	INFO	1	com.l2jfrozen.util.Util	=====================================================================-[ Manor ]
+2020.04.14 23:26:39,999	INFO	1	com.l2jfrozen.gameserver.model.L2Manor	ManorManager: Loaded 256 seeds
+2020.04.14 23:26:40,001	INFO	1	com.l2jfrozen.gameserver.managers.CastleManorManager	Initializing CastleManorManager
+2020.04.14 23:26:40,007	INFO	1	com.l2jfrozen.util.Util	===================================================================-[ Castles ]
+2020.04.14 23:26:40,020	INFO	1	com.l2jfrozen.gameserver.managers.FortSiegeManager	Initializing FortSiegeManager
+2020.04.14 23:26:40,022	INFO	1	com.l2jfrozen.gameserver.managers.CrownManager	CrownManager: initialized
+2020.04.14 23:26:40,022	INFO	1	com.l2jfrozen.util.Util	======================================================================-[ Boat ]
+2020.04.14 23:26:40,030	INFO	1	com.l2jfrozen.util.Util	=====================================================================-[ Doors ]
+2020.04.14 23:26:40,030	INFO	1	com.l2jfrozen.gameserver.datatables.csv.DoorTable	Searching clan halls doors:
+2020.04.14 23:26:40,075	CONFIG	1	com.l2jfrozen.gameserver.datatables.csv.DoorTable	DoorTable: Loaded 1001 Door Templates.
+2020.04.14 23:26:40,077	INFO	1	com.l2jfrozen.util.Util	===========================================================-[ Four Sepulchers ]
+2020.04.14 23:26:40,082	INFO	1	com.l2jfrozen.gameserver.managers.GrandBossManager	GrandBossManager: Loaded 15 Instances
+2020.04.14 23:26:40,176	INFO	1	com.l2jfrozen.gameserver.managers.GrandBossManager	FourSepulchersManager: Beginning in Attack time
+2020.04.14 23:26:40,177	INFO	1	com.l2jfrozen.util.Util	===============================================================-[ Seven Signs ]
+2020.04.14 23:26:40,184	INFO	1	com.l2jfrozen.gameserver.model.entity.sevensigns.SevenSigns	SevenSigns: Currently in the Competition (Quest Event) period!
+2020.04.14 23:26:40,184	INFO	1	com.l2jfrozen.gameserver.model.entity.sevensigns.SevenSigns	SevenSigns: The Seal of Avarice remains unclaimed.
+2020.04.14 23:26:40,184	INFO	1	com.l2jfrozen.gameserver.model.entity.sevensigns.SevenSigns	SevenSigns: The Seal of Gnosis remains unclaimed.
+2020.04.14 23:26:40,184	INFO	1	com.l2jfrozen.gameserver.model.entity.sevensigns.SevenSigns	SevenSigns: The Seal of Strife remains unclaimed.
+2020.04.14 23:26:40,185	INFO	1	com.l2jfrozen.gameserver.model.entity.sevensigns.SevenSigns	SevenSigns: The competition, if the current trend continues, will end in a tie this week.
+2020.04.14 23:26:40,186	INFO	1	com.l2jfrozen.gameserver.model.entity.sevensigns.SevenSigns	SevenSigns: Next period begins in 5 days, 18 hours and 33 mins.
+2020.04.14 23:26:40,243	INFO	1	com.l2jfrozen.gameserver.model.entity.sevensigns.SevenSignsFestival	SevenSignsFestival: The first Festival of Darkness cycle begins in 2 minute(s).
+2020.04.14 23:26:40,243	INFO	1	com.l2jfrozen.util.Util	===========================================================-[ Olympiad System ]
+2020.04.14 23:26:40,248	INFO	1	com.l2jfrozen.gameserver.model.entity.olympiad.Olympiad	Olympiad System: Loading Olympiad System....
+2020.04.14 23:26:40,248	INFO	1	com.l2jfrozen.gameserver.model.entity.olympiad.Olympiad	Olympiad System: Currently in Olympiad Period
+2020.04.14 23:26:40,248	INFO	1	com.l2jfrozen.gameserver.model.entity.olympiad.Olympiad	Olympiad System: Period Ends....
+2020.04.14 23:26:40,248	INFO	1	com.l2jfrozen.gameserver.model.entity.olympiad.Olympiad	Olympiad System: In 24 days, 12 hours and 33 mins.
+2020.04.14 23:26:40,248	INFO	1	com.l2jfrozen.gameserver.model.entity.olympiad.Olympiad	Olympiad System: Next Weekly Change is in....
+2020.04.14 23:26:40,248	INFO	1	com.l2jfrozen.gameserver.model.entity.olympiad.Olympiad	Olympiad System: 3 days, 0 hours and 8 mins.
+2020.04.14 23:26:40,248	INFO	1	com.l2jfrozen.gameserver.model.entity.olympiad.Olympiad	Olympiad System: Loaded 0 Nobles
+2020.04.14 23:26:40,250	INFO	1	com.l2jfrozen.gameserver.model.entity.olympiad.Olympiad	Olympiad System: Competition Period Starts in 0 days, 0 hours and 0 mins.
+2020.04.14 23:26:40,250	INFO	1	com.l2jfrozen.gameserver.model.entity.olympiad.Olympiad	Olympiad System: Event starts/started : Tue Apr 14 18:00:40 ART 2020
+2020.04.14 23:26:40,254	INFO	1	com.l2jfrozen.gameserver.model.entity.Hero	Hero System: Loaded 0 Heroes.
+2020.04.14 23:26:40,254	INFO	1	com.l2jfrozen.gameserver.model.entity.Hero	Hero System: Loaded 0 all time Heroes.
+2020.04.14 23:26:40,254	INFO	1	com.l2jfrozen.util.Util	=============================================================-[ Access Levels ]
+2020.04.14 23:26:40,261	INFO	1	com.l2jfrozen.gameserver.datatables.GmListTable	GmListTable: initalized.
+2020.04.14 23:26:40,261	INFO	1	com.l2jfrozen.util.Util	==================================================================-[ Handlers ]
+2020.04.14 23:26:40,262	INFO	20	com.l2jfrozen.gameserver.model.entity.olympiad.Olympiad	Olympiad System: Olympiad Game Started
+2020.04.14 23:26:40,289	CONFIG	1	com.l2jfrozen.gameserver.GameServer	ItemHandler: Loaded 2044 handlers.
+2020.04.14 23:26:40,311	CONFIG	1	com.l2jfrozen.gameserver.GameServer	SkillHandler: Loaded 76 handlers.
+2020.04.14 23:26:40,379	INFO	1	com.l2jfrozen.gameserver.handler.AdminCommandHandler	AdminCommandHandler: Loaded 487 handlers.
+2020.04.14 23:26:40,385	CONFIG	1	com.l2jfrozen.gameserver.GameServer	UserCommandHandler: Loaded 14 handlers.
+2020.04.14 23:26:40,388	CONFIG	1	com.l2jfrozen.gameserver.GameServer	VoicedCommandHandler: Loaded 9 handlers.
+2020.04.14 23:26:40,389	INFO	1	Loader	AutoChatHandler : Loaded 32 handlers in total.
+2020.04.14 23:26:40,389	INFO	1	Loader	AutoSpawnHandler : Loaded 129 handlers in total.
+2020.04.14 23:26:40,392	INFO	1	com.l2jfrozen.util.Util	====================================================================-[ Quests ]
+2020.04.14 23:26:40,393	INFO	1	com.l2jfrozen.gameserver.managers.QuestManager	Initializing QuestManager
+2020.04.14 23:26:40,393	INFO	1	com.l2jfrozen.gameserver.managers.QuestManager	Loaded: 0 quests
+2020.04.14 23:26:40,393	INFO	1	com.l2jfrozen.util.Util	========================================================================-[ AI ]
+2020.04.14 23:26:40,406	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	AI load:
+2020.04.14 23:26:40,406	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Antharas_l2j
+2020.04.14 23:26:40,410	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Baium_l2j
+2020.04.14 23:26:40,413	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Core
+2020.04.14 23:26:40,421	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Queen Ant
+2020.04.14 23:26:40,434	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Van Halter
+2020.04.14 23:26:40,449	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Gordon
+2020.04.14 23:26:40,451	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Monastery_l2j
+2020.04.14 23:26:40,451	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Transform
+2020.04.14 23:26:40,453	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Fairy Trees
+2020.04.14 23:26:40,454	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Summon Minions
+2020.04.14 23:26:40,455	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Zombie Gatekeepers
+2020.04.14 23:26:40,455	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Ice Fairy Sirra
+2020.04.14 23:26:40,464	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Golkonda
+2020.04.14 23:26:40,465	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Hallate
+2020.04.14 23:26:40,466	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Kernon
+2020.04.14 23:26:40,466	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Varka/Ketra Ally
+2020.04.14 23:26:40,467	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Barakiel
+2020.04.14 23:26:40,467	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Orfen
+2020.04.14 23:26:40,469	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Zaken_l2j
+2020.04.14 23:26:40,472	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Frintezza_l2j
+2020.04.14 23:26:40,476	INFO	1	com.l2jfrozen.gameserver.ai.special.manager.AILoader	 - Valakas_l2j
+2020.04.14 23:26:40,478	INFO	1	com.l2jfrozen.util.Util	===================================================================-[ Scripts ]
+2020.04.14 23:26:42,151	INFO	1	com.l2jfrozen.gameserver.managers.QuestManager	Replaced: SagasSuperclass with a new version
+2020.04.14 23:26:46,786	INFO	1	Loader	Compiled Scripts Cache is disabled.
+2020.04.14 23:26:46,790	INFO	1	com.l2jfrozen.gameserver.script.faenor.FaenorScriptEngine	[FeanorScriptEngine] Loading Packages ...
+2020.04.14 23:26:46,791	INFO	1	com.l2jfrozen.gameserver.script.faenor.FaenorScriptEngine	[FeanorScriptEngine] No Packages Loaded ...
+2020.04.14 23:26:46,804	INFO	1	com.l2jfrozen.util.Util	===============================================================-[ Game Server ]
+2020.04.14 23:26:46,804	INFO	1	Loader	IdFactory: Free ObjectID's remaining: 1879005021
+2020.04.14 23:26:46,807	INFO	1	com.l2jfrozen.util.Util	===============================================================-[ Custom Mods ]
+2020.04.14 23:26:46,807	INFO	1	Loader	Wedding Manager is Disabled
+2020.04.14 23:26:46,811	INFO	1	com.l2jfrozen.util.Util	==================================================================-[ PowerPak ]
+2020.04.14 23:26:46,828	INFO	1	com.l2jfrozen.util.Util	==============================================================-[ EventManager ]
+2020.04.14 23:26:46,841	INFO	1	com.l2jfrozen.util.Util	======================================================================-[ Info ]
+2020.04.14 23:26:46,841	INFO	1	Loader	Operating System: Windows 7 6.1 amd64
+2020.04.14 23:26:46,841	INFO	1	Loader	Available CPUs: 4
+2020.04.14 23:26:46,842	INFO	1	Loader	Maximum Numbers of Connected Players: 1000
+2020.04.14 23:26:46,842	INFO	1	Loader	GameServer Started, free memory 600 Mb of 998 Mb
+2020.04.14 23:26:46,842	INFO	1	Loader	Used memory: 397 MB
+2020.04.14 23:26:46,842	INFO	1	com.l2jfrozen.util.Util	====================================================================-[ Status ]
+2020.04.14 23:26:48,050	INFO	1	Loader	Server Loaded in 39 seconds
+2020.04.14 23:26:48,052	INFO	1	Loader	ServerStatus started!
+2020.04.14 23:26:48,053	INFO	1	com.l2jfrozen.util.Util	=====================================================================-[ Login ]
+2020.04.14 23:26:48,060	INFO	52	com.l2jfrozen.gameserver.thread.LoginServerThread	Connecting to login on 127.0.0.1:9014
+2020.04.14 23:26:48,414	INFO	52	com.l2jfrozen.gameserver.thread.LoginServerThread	Registered on login as Server 1 : Extreme
+2020.04.14 23:27:27,662	INFO	60	com.l2jfrozen.gameserver.model.L2Character	Created new character : newwarrior for account: prueba8
+2020.04.14 23:27:28,359	WARNING	60	com.l2jfrozen.gameserver.model.L2Character	could not store new skill. its NULL
+2020.04.14 23:27:29,418	WARNING	61	com.l2jfrozen.gameserver.model.L2Character	Error could not store char skills: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '268478559-9999-0' for key 'PRIMARY'
+2020.04.14 23:27:36,816	WARNING	59	com.l2jfrozen.gameserver.model.L2Character	ATTENTION: Bot Checker is bad configured because config/questionwords.txt has 0 words of 6 to 15 keys
+2020.04.14 23:28:41,988	INFO	61	com.l2jfrozen.gameserver.model.L2Character	Created new character : newmagic for account: prueba8
+2020.04.14 23:28:42,072	WARNING	61	com.l2jfrozen.gameserver.model.L2Character	could not store new skill. its NULL
+2020.04.14 23:28:43,296	WARNING	58	com.l2jfrozen.gameserver.model.L2Character	Error could not store char skills: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '268478578-9999-0' for key 'PRIMARY'
+2020.04.14 23:28:47,631	WARNING	60	com.l2jfrozen.gameserver.model.L2Character	ATTENTION: Bot Checker is bad configured because config/questionwords.txt has 0 words of 6 to 15 keys
