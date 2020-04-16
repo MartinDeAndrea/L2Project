@@ -718,9 +718,9 @@
 </for>
 </skill>
 <!-- Status:Fixed Pack:l2jfrozen author:Nefer -->
-<skill id="7064" levels="1" name="Master's Blessing - Chant of Victory">
+<!--<skill id="7064" levels="1" name="Master's Blessing - Chant of Victory">-->
   <!-- GM Skill -->
-  <set name="mpConsume" val="2"/>
+  <!-- <set name="mpConsume" val="2"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="reuseDelay" val="1200000"/>
   <set name="hitTime" val="2500"/>
@@ -746,5 +746,5 @@
       <mul order="0x30" stat="debuffVuln" val="0.8"/>
     </effect>
   </for>
-</skill>
+</skill> -->
 </list>

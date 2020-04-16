@@ -95,4 +95,5 @@ on skills files with new skill 9999 or it will never work :)
 	<for>    
 		<effect count="0x7fffffff" name="DeflectBuff" time="3" val="0"/>  
 	</for>
+</skill>
 </list>

@@ -1,0 +1,13 @@
+Apr 16, 2020 3:01:49 AM com.l2jfrozen.gameserver.skills.DocumentBase parse
+SEVERE: Error loading file C:\Users\marts\Desktop\Datapack 2016\gameserver\data\stats\skills\9900-9999.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/marts/Desktop/Datapack%202016/gameserver/data/stats/skills/9900-9999.xml; lineNumber: 98; columnNumber: 3; The element type "skill" must be terminated by the matching end-tag "</skill>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.l2jfrozen.gameserver.skills.DocumentBase.parse(DocumentBase.java:106)
+	at com.l2jfrozen.gameserver.skills.SkillsEngine.loadSkills(SkillsEngine.java:98)
+	at com.l2jfrozen.gameserver.skills.SkillsEngine.loadAllSkills(SkillsEngine.java:107)
+	at com.l2jfrozen.gameserver.datatables.SkillTable.<init>(SkillTable.java:56)
+	at com.l2jfrozen.gameserver.datatables.SkillTable.getInstance(SkillTable.java:47)
+	at com.l2jfrozen.gameserver.GameServer.main(GameServer.java:229)
+
