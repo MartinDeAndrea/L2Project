@@ -1,2 +1,4 @@
 gameserver/config/network/
 loginserver/config/network/
+gameserver/log/
+loginserver/log/
