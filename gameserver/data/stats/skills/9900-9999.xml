@@ -86,7 +86,7 @@
 ANTIBUFF-SHIELD: remember to add the client side changes
 on skills files with new skill 9999 or it will never work :)
 -->
-<skill id="9999" levels="1" name="AntiBuff-Shield">  
+<!--<skill id="9999" levels="1" name="AntiBuff-Shield">  
 	<set name="target" val="TARGET_SELF"/>  
 	<set name="skillType" val="CONT"/>  
 	<set name="operateType" val="OP_TOGGLE"/>  
@@ -95,5 +95,5 @@ on skills files with new skill 9999 or it will never work :)
 	<for>    
 		<effect count="0x7fffffff" name="DeflectBuff" time="3" val="0"/>  
 	</for>
-</skill>
+</skill>-->
 </list>
