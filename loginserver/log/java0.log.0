@@ -1,31 +1,29 @@
-2020.04.14 23:26:02,133	INFO	1	com.l2jfrozen.util.Util	======================================================================-[ Team ]
-2020.04.14 23:26:02,328	INFO	1	com.l2jfrozen.L2Frozen	                  >>>>>  Developpers: Shyla, Beetle  <<<<<                  
-2020.04.14 23:26:02,328	INFO	1	com.l2jfrozen.L2Frozen	                                                                            
-2020.04.14 23:26:02,329	INFO	1	com.l2jfrozen.L2Frozen	         #     #####          ##### ##### ##### ##### ##### ##    #         
-2020.04.14 23:26:02,329	INFO	1	com.l2jfrozen.L2Frozen	         #         #          #     #   # #   #     # #     # #   #         
-2020.04.14 23:26:02,329	INFO	1	com.l2jfrozen.L2Frozen	         #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
-2020.04.14 23:26:02,329	INFO	1	com.l2jfrozen.L2Frozen	         #     #              #     ###   #   # #     #     #   # #         
-2020.04.14 23:26:02,330	INFO	1	com.l2jfrozen.L2Frozen	         ##### #####          #     #  ## ##### ##### ##### #    ##         
-2020.04.14 23:26:02,330	INFO	1	com.l2jfrozen.L2Frozen	                                                                            
-2020.04.14 23:26:02,330	INFO	1	com.l2jfrozen.L2Frozen	                            Copyright 2010-2011                             
-2020.04.14 23:26:02,343	INFO	1	com.l2jfrozen.util.Util	==================================================================-[ Database ]
-2020.04.14 23:26:02,392	INFO	1	com.mchange.v2.log.MLog	MLog clients using java 1.4+ standard logging.
-2020.04.14 23:26:02,709	INFO	1	com.mchange.v2.c3p0.C3P0Registry	Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
-2020.04.14 23:26:03,245	INFO	1	com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource	Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge0yia9yb6ix9nt4gj7|77468bd9, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge0yia9yb6ix9nt4gj7|77468bd9, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
-2020.04.14 23:26:03,279	INFO	1	com.l2jfrozen.util.Util	===========================================================-[ LoginController ]
-2020.04.14 23:26:04,008	INFO	1	com.l2jfrozen.loginserver.LoginController	Cached 10 KeyPairs for RSA communication
-2020.04.14 23:26:04,313	INFO	1	com.l2jfrozen.loginserver.LoginController	Stored 20 keys for Blowfish communication
-2020.04.14 23:26:04,329	INFO	1	com.l2jfrozen.gameserver.datatables.GameServerTable	Loaded 127 server names
-2020.04.14 23:26:04,337	INFO	1	com.l2jfrozen.gameserver.datatables.GameServerTable	Loaded 1 registered Game Servers
-2020.04.14 23:26:04,482	INFO	1	com.l2jfrozen.gameserver.datatables.GameServerTable	Cached 10 RSA keys for Game Server communication.
-2020.04.14 23:26:04,536	INFO	1	com.l2jfrozen.loginserver.L2LoginServer	Listening for GameServers on 127.0.0.1:9014
-2020.04.14 23:26:04,537	INFO	1	com.l2jfrozen.loginserver.L2LoginServer	Login Server ready on *:2106
-2020.04.14 23:26:04,538	INFO	1	com.l2jfrozen.Config	Loaded 0 IP Bans.
-2020.04.14 23:26:48,401	INFO	20	com.l2jfrozen.loginserver.GameServerThread	Updated Gameserver [1] Extreme IP's:
-2020.04.14 23:26:48,402	INFO	20	com.l2jfrozen.loginserver.GameServerThread	InternalIP: 192.168.0.90
-2020.04.14 23:26:48,403	INFO	20	com.l2jfrozen.loginserver.GameServerThread	ExternalIP: 186.136.135.36
-2020.04.14 23:27:08,612	INFO	24	com.l2jfrozen.loginserver.network.clientpackets.RequestAuthLogin	Accepts by ip 127.0.0.1 no allowed
-2020.04.14 23:27:08,612	INFO	24	com.l2jfrozen.loginserver.network.clientpackets.RequestAuthLogin	Command is/sbin/iptables -I INPUT 13 -p tcp --dport 7777 -s 127.0.0.1 -j ACCEPT
-2020.04.14 23:27:16,091	INFO	24	com.l2jfrozen.loginserver.network.clientpackets.RequestAuthLogin	Accepts by ip 127.0.0.1 no allowed
-2020.04.14 23:27:16,092	INFO	24	com.l2jfrozen.loginserver.network.clientpackets.RequestAuthLogin	Command is/sbin/iptables -I INPUT 13 -p tcp --dport 7777 -s 127.0.0.1 -j ACCEPT
-2020.04.14 23:42:47,347	INFO	20	com.l2jfrozen.loginserver.GameServerThread	Server [1] Extreme is now set as disconnected
+2020.04.15 20:34:51,487	INFO	1	com.l2jfrozen.util.Util	======================================================================-[ Team ]
+2020.04.15 20:34:51,673	INFO	1	com.l2jfrozen.L2Frozen	                  >>>>>  Developpers: Shyla, Beetle  <<<<<                  
+2020.04.15 20:34:51,673	INFO	1	com.l2jfrozen.L2Frozen	                                                                            
+2020.04.15 20:34:51,674	INFO	1	com.l2jfrozen.L2Frozen	         #     #####          ##### ##### ##### ##### ##### ##    #         
+2020.04.15 20:34:51,674	INFO	1	com.l2jfrozen.L2Frozen	         #         #          #     #   # #   #     # #     # #   #         
+2020.04.15 20:34:51,674	INFO	1	com.l2jfrozen.L2Frozen	         #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+2020.04.15 20:34:51,674	INFO	1	com.l2jfrozen.L2Frozen	         #     #              #     ###   #   # #     #     #   # #         
+2020.04.15 20:34:51,674	INFO	1	com.l2jfrozen.L2Frozen	         ##### #####          #     #  ## ##### ##### ##### #    ##         
+2020.04.15 20:34:51,675	INFO	1	com.l2jfrozen.L2Frozen	                                                                            
+2020.04.15 20:34:51,675	INFO	1	com.l2jfrozen.L2Frozen	                            Copyright 2010-2011                             
+2020.04.15 20:34:51,679	INFO	1	com.l2jfrozen.util.Util	==================================================================-[ Database ]
+2020.04.15 20:34:51,720	INFO	1	com.mchange.v2.log.MLog	MLog clients using java 1.4+ standard logging.
+2020.04.15 20:34:51,979	INFO	1	com.mchange.v2.c3p0.C3P0Registry	Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2020.04.15 20:34:52,462	INFO	1	com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource	Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge0yia9zki8os80oorb|77468bd9, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge0yia9zki8os80oorb|77468bd9, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2020.04.15 20:34:52,496	INFO	1	com.l2jfrozen.util.Util	===========================================================-[ LoginController ]
+2020.04.15 20:34:53,402	INFO	1	com.l2jfrozen.loginserver.LoginController	Cached 10 KeyPairs for RSA communication
+2020.04.15 20:34:53,681	INFO	1	com.l2jfrozen.loginserver.LoginController	Stored 20 keys for Blowfish communication
+2020.04.15 20:34:53,697	INFO	1	com.l2jfrozen.gameserver.datatables.GameServerTable	Loaded 127 server names
+2020.04.15 20:34:53,705	INFO	1	com.l2jfrozen.gameserver.datatables.GameServerTable	Loaded 1 registered Game Servers
+2020.04.15 20:34:53,848	INFO	1	com.l2jfrozen.gameserver.datatables.GameServerTable	Cached 10 RSA keys for Game Server communication.
+2020.04.15 20:34:53,906	INFO	1	com.l2jfrozen.loginserver.L2LoginServer	Listening for GameServers on 127.0.0.1:9014
+2020.04.15 20:34:53,907	INFO	1	com.l2jfrozen.loginserver.L2LoginServer	Login Server ready on *:2106
+2020.04.15 20:34:53,909	INFO	1	com.l2jfrozen.Config	Loaded 0 IP Bans.
+2020.04.15 20:35:25,759	INFO	20	com.l2jfrozen.loginserver.GameServerThread	Updated Gameserver [1] Extreme IP's:
+2020.04.15 20:35:25,759	INFO	20	com.l2jfrozen.loginserver.GameServerThread	InternalIP: 192.168.0.90
+2020.04.15 20:35:25,760	INFO	20	com.l2jfrozen.loginserver.GameServerThread	ExternalIP: 186.136.135.36
+2020.04.15 20:37:01,450	INFO	24	com.l2jfrozen.loginserver.network.clientpackets.RequestAuthLogin	Accepts by ip 127.0.0.1 no allowed
+2020.04.15 20:37:01,450	INFO	24	com.l2jfrozen.loginserver.network.clientpackets.RequestAuthLogin	Command is/sbin/iptables -I INPUT 13 -p tcp --dport 7777 -s 127.0.0.1 -j ACCEPT
+2020.04.15 21:08:41,084	INFO	20	com.l2jfrozen.loginserver.GameServerThread	Server [1] Extreme is now set as disconnected
