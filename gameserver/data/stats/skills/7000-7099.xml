@@ -716,6 +716,7 @@
      <mul order="0x30" stat="debuffVuln" val="0.9"/>
   </effect>
 </for>
+</skill>
 <skill id="7064" levels="1" name="AntiBuff-Shield">
 <set name="target" val="TARGET_SELF"/>
 <set name="skillType" val="CONT"/>
