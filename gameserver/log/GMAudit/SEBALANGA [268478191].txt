@@ -1310,3 +1310,5 @@
 [15/04/2020 20:29:58] --> GM: SEBALANGA [268478191], Target: [PSA], Action: [admin_character_info], Params: [ SEBALANGA] 
 [15/04/2020 20:30:00] --> GM: SEBALANGA [268478191], Target: [SEBALANGA], Action: [admin_add_exp_sp_to_character], Params: [] 
 [15/04/2020 20:30:03] --> GM: SEBALANGA [268478191], Target: [SEBALANGA], Action: [admin_set_level], Params: [ 80] 
+[16/04/2020 19:19:29] --> GM: SEBALANGA [268478191], Target: [Guardian Buffer], Action: [admin_add_skill 9999 1], Params: [] 
+[16/04/2020 19:19:40] --> GM: SEBALANGA [268478191], Target: [SEBALANGA], Action: [admin_add_skill 9999 1], Params: [] 
