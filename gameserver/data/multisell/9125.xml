@@ -233,7 +233,7 @@
   </item>
 
 
-
+<!--
   <item id="39">
     <ingredient id="57" count="10000000"/>
     <production id="614" count="1"/>
@@ -277,6 +277,6 @@
   <item id="49">
     <ingredient id="57" count="10000000"/>
     <production id="624" count="1"/>
-  </item>
+  </item>-->
 
 </list>
