@@ -82,7 +82,7 @@ class Quest (JQuest) :
     def onKill(self, npc, player, isPet) :
         st = player.getQuestState(qn)
         if not st : return
-        st.giveItems(Fang,int(Config.RATE_DROP_QUEST))
+        st.giveItems(Fang,int(Config.RATE_DROP_QUEST*5))
         st.playSound("ItemSound.quest_itemget")
         return
 

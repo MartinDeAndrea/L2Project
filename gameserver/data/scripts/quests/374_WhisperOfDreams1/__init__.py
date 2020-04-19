@@ -14,7 +14,7 @@ qn = "374_WhisperOfDreams1"
 DROP_RATE   = 50*Config.RATE_DROP_QUEST
 DROP_MAX = 100 #in % unless you change this
 #Mysterious Stone drop rate
-DROP_RATE_2 = 1*Config.RATE_DROP_QUEST
+DROP_RATE_2 = 2*Config.RATE_DROP_QUEST
 DROP_MAX_2 = 1000 # default: ~ 1/1000
 #Rewards
 SHOP_LIST={

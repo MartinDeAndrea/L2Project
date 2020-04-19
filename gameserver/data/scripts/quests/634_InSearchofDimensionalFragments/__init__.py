@@ -44,7 +44,7 @@ class Quest (JQuest) :
     st = player.getQuestState(qn)
     if st :
         if st.getState() == STARTED :
-            numItems = int((npc.getLevel() * 0.15 +1.6)*Config.RATE_DROP_QUEST)
+            numItems = int((npc.getLevel() * 0.15 +1.6)*Config.RATE_DROP_QUEST*2)
             if st.getRandom(100)>=10 :
                 numItems = 0
             if numItems > 0 :    

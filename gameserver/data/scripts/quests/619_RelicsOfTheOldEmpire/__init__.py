@@ -86,7 +86,7 @@ class Quest (JQuest) :
        if st.getState() == STARTED :
          numItems, chance = divmod(100*Config.RATE_DROP_QUEST,100)
          if st.getRandom(100) < chance :
-            numItems += 1
+            numItems += 2
          st.giveItems(RELICS,int(numItems))
          st.playSound("ItemSound.quest_itemget")
          if st.getRandom(100) < (5*Config.RATE_DROP_QUEST) :

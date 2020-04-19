@@ -103,7 +103,7 @@ class Quest (JQuest) :
     chance = CHANCE[npc.getNpcId()]*Config.RATE_DROP_QUEST
     numItems, chance = divmod(chance,MAX)
     if st.getRandom(MAX)<chance :
-      numItems = numItems + 1
+      numItems = numItems + 2
     if numItems != 0 :
       st.giveItems(ANCIENT_SCROLL,int(numItems))
       st.playSound("ItemSound.quest_itemget")

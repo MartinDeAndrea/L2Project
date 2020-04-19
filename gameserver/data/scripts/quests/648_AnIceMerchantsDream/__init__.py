@@ -106,7 +106,7 @@ class Quest (JQuest) :
         numItems, chance = divmod(chance,100)
         random = st.getRandom(100)
         if random <= chance:
-           numItems += 1
+           numItems += 2
         if int(numItems) != 0 :
            st.giveItems(Silver_Ice,int(numItems))
            st.playSound("ItemSound.quest_itemget")

@@ -78,7 +78,7 @@ class Quest (JQuest) :
         chance = DROP_CHANCE * Config.RATE_DROP_QUEST
         numItems, chance = divmod(chance,100)
         if st.getRandom(100) < chance : 
-           numItems += 1
+           numItems += 2
         if numItems :
            st.playSound("ItemSound.quest_itemget")   
            st.giveItems(TOTEM,int(numItems))       

@@ -102,7 +102,7 @@ class Quest (JQuest) :
             if not st2 :
                 numItems,chance = divmod(Chance[npcId]*Config.RATE_DROP_QUEST,1000)
                 if st.getRandom(1000) < chance :
-                    numItems += 1
+                    numItems += 2
                 numItems = int(numItems)
                 if numItems != 0 :
                     if int((count+numItems)/100) > int(count/100) :

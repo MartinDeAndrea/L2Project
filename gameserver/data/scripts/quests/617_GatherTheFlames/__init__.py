@@ -98,7 +98,7 @@ class Quest (JQuest) :
      chance = DROPLIST[npc.getNpcId()]
      drop = st.getRandom(100)
      qty,chance = divmod(chance*Config.RATE_DROP_QUEST,100)
-     if drop < chance : qty += 1
+     if drop < chance : qty += 2
      qty = int(qty)
      if qty :
         st.giveItems(TORCH,qty)
