@@ -20,7 +20,8 @@
     <ingredient id="57" count="2000000"/>
     <production id="110" count="1"/>
   </item>
-  <!-- Dark Crystal Shield -->
+</list>
+<!-- Dark Crystal Shield -->
  <!-- <item id="3">
     <ingredient id="57" count="5000000"/>
     <production id="641" count="1"/>
@@ -37,5 +38,3 @@
     <ingredient id="57" count="10000000"/>
     <production id="6377" count="1"/>
   </item>-->
-
-</list>
