@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- D-Grade Jewels -->
+
+<list>
+
+<!-- Elven Necklace D-->
+  <item id="1">
+    <ingredient id="57" count="1200000"/>
+    <production id="913" count="1"/>
+  </item>
+
+  <!-- Elven Earring -->
+  <item id="2">
+    <ingredient id="57" count="850000"/>
+    <production id="850" count="1"/>
+  </item>
+
+  <!-- Elven Ring -->
+  <item id="3">
+    <ingredient id="57" count="600000"/>
+    <production id="881" count="1"/>
+  </item>
+
+</list>

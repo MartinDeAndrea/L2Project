@@ -1,40 +1,54 @@
 <?xml version='1.0' encoding='utf-8'?>
 
-<!-- S-Grade Armors -->
+<!-- Shields -->
 
 <list>
-
-  <!-- Avadon Shield -->
+ <!-- Plate Shield D -->
   <item id="1">
+    <ingredient id="57" count="2000000"/>
+    <production id="2494" count="1"/>
+  </item>
+
+ <!-- Full Plate Shield C -->
+  <item id="2">
+    <ingredient id="57" count="2000000"/>
+    <production id="2497" count="1"/>
+  </item>
+
+  <!-- Avadon Shield B-->
+  <item id="3">
     <ingredient id="57" count="2000000"/>
     <production id="673" count="1"/>
   </item>
 
-  <!-- Zubei's Shield -->
-  <item id="2">
+  <!-- Zubei's Shield B-->
+  <item id="4">
     <ingredient id="57" count="2000000"/>
     <production id="633" count="1"/>
   </item>
 
-<item id="3">
+<!-- Doom Shield B-->
+<item id="5">
     <ingredient id="57" count="2000000"/>
     <production id="110" count="1"/>
   </item>
-</list>
-<!-- Dark Crystal Shield -->
- <!-- <item id="3">
+
+<!-- Dark Crystal Shield A-->
+  <item id="6">
     <ingredient id="57" count="5000000"/>
     <production id="641" count="1"/>
   </item>-->
 
-  <!-- Nightmare Shield -->
- <!-- <item id="4">
+  <!-- Nightmare Shield A-->
+  <item id="7">
     <ingredient id="57" count="5000000"/>
     <production id="2498" count="1"/>
-  </item>-->
-
-  <!-- Imperial Crusader Shield -->
-  <!--<item id="5">
+  </item>
+  
+  <!-- Imperial Crusader Shield S-->
+ <item id="8">
     <ingredient id="57" count="10000000"/>
     <production id="6377" count="1"/>
-  </item>-->
+  </item>
+
+  </list>

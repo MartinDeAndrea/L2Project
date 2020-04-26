@@ -136,34 +136,34 @@
     <production id="4860" count="1"/>
   </item>
 
-  <!-- Staff of Evil Spirits [Bodily Blessing] -->
-  <item id="24">
-    <ingredient id="57" count="500000000"/>
-    <production id="4901" count="1"/>
-  </item>
-
-  <!-- Staff of Evil Spirits [Magic Focus] -->
-  <item id="25">
-    <ingredient id="57" count="500000000"/>
-    <production id="4900" count="1"/>
-  </item>
-
   <!-- Great Sword [Health] -->
-  <item id="26">
+  <item id="24">
     <ingredient id="57" count="15000000"/>
     <production id="4723" count="1"/>
   </item>
 
   <!-- Great Sword [Critical Damage] -->
-  <item id="27">
+  <item id="25">
     <ingredient id="57" count="15000000"/>
     <production id="4724" count="1"/>
   </item>
 
   <!-- Great Sword [Focus] -->
-  <item id="28">
+  <item id="26">
     <ingredient id="57" count="15000000"/>
     <production id="4725" count="1"/>
   </item>
 
 </list>
+
+<!-- Staff of Evil Spirits [Bodily Blessing] -->
+  <!-- <item id="24">
+    <ingredient id="57" count="500000000"/>
+    <production id="4901" count="1"/>
+  </item>
+
+ Staff of Evil Spirits [Magic Focus] -->
+ <!-- <item id="25">
+    <ingredient id="57" count="500000000"/>
+    <production id="4900" count="1"/>
+  </item>-->

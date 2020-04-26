@@ -112,6 +112,24 @@
     <production id="3952" count="10000"/>
   </item>
 
+    <!-- Beast Soulshot -->
+  <item id="49">
+    <ingredient id="57" count="2000000"/>
+    <production id="6645" count="10000"/>
+  </item>
+
+<!-- Beast Spiritshot -->
+  <item id="50">
+    <ingredient id="57" count="2000000"/>
+    <production id="6646" count="10000"/>
+  </item>
+
+  <!-- Blessed Beast Soulshot -->
+  <item id="51">
+    <ingredient id="57" count="2000000"/>
+    <production id="6647" count="10000"/>
+  </item>
+
   <!-- Mana Potion -->
   <item id="19">
     <ingredient id="57" count="500000"/>
@@ -262,11 +280,34 @@
     <production id="8598" count="3"/>
   </item>
 
-
  <!--recovery S grade -->
   <item id="44">
     <ingredient id="57" count="400000"/>
     <production id="8599" count="3"/>
+  </item>
+
+   <!-- Scroll of Escape -->
+  <item id="45">
+    <ingredient id="57" count="2000"/>
+    <production id="736" count="1"/>
+  </item>
+
+  <!-- Scroll of Resurrection -->
+  <item id="46">
+    <ingredient id="57" count="2000"/>
+    <production id="737" count="1"/>
+  </item>
+
+  <!-- SOE: CH -->
+  <item id="47">
+    <ingredient id="57" count="2000"/>
+    <production id="1829" count="1"/>
+  </item>
+
+  <!-- SOE: Castle -->
+  <item id="48">
+    <ingredient id="57" count="2000"/>
+    <production id="1830" count="1"/>
   </item>
 
 </list>

@@ -58,12 +58,6 @@
     <production id="4775" count="1"/>
   </item>
 
-  <!-- Crystal Dagger [Mortal Strike] -->
-  <item id="10">
-    <ingredient id="57" count="3000000"/>
-    <production id="4776" count="1"/>
-  </item>
-
   <!-- Great Pata [Critical Drain] -->
   <item id="11">
     <ingredient id="57" count="3000000"/>
@@ -133,48 +127,51 @@
   <!-- Berserker Blade [Critical Damage] -->
   <item id="22">
     <ingredient id="57" count="3000000"/>
-    <production id="6347" count="1"/>
+    <production id="6348" count="1"/>
   </item>
 
   <!-- Berserker Blade [Haste] -->
   <item id="23">
     <ingredient id="57" count="3000000"/>
-    <production id="6347" count="1"/>
+    <production id="6349" count="1"/>
   </item>
   
-  <!-- Deadman's Staff - Magic Regeneration -->
-  <item id="24">
-    <ingredient id="57" count="3000000"/>
-    <production id="4888" count="1"/>
-  </item>
-
-  <!-- Deadman's Staff - Mental Shield -->
-  <item id="25">
-    <ingredient id="57" count="3000000"/>
-    <production id="4889" count="1"/>
-  </item>
-
-  <!-- Deadman's Staff - Deadman's Staff - Magic Hold -->
-  <item id="26">
-    <ingredient id="57" count="3000000"/>
-    <production id="4890" count="1"/>
-  </item>
   <!-- Cursed Dagger [Crit. Bleed] -->
-  <item id="27">
+  <item id="24">
     <ingredient id="57" count="3000000"/>
     <production id="4759" count="1"/>
   </item>
 
   <!-- Cursed Dagger [Critical Poison] -->
-  <item id="28">
+  <item id="25">
     <ingredient id="57" count="3000000"/>
     <production id="4760" count="1"/>
   </item>
 
   <!-- Cursed Dagger [Rsk. Haste] -->
-  <item id="29">
+  <item id="26">
     <ingredient id="57" count="3000000"/>
     <production id="4761" count="1"/>
   </item>
 
 </list>
+<!-- Deadman's Staff - Mental Shield 
+  <item id="25">
+    <ingredient id="57" count="3000000"/>
+    <production id="4889" count="1"/>
+  </item>-->
+<!-- Deadman's Staff - Magic Regeneration 
+  <item id="24">
+    <ingredient id="57" count="3000000"/>
+    <production id="4888" count="1"/>
+  </item>
+  Deadman's Staff - Deadman's Staff - Magic Hold -->
+  <!-- <item id="26">
+    <ingredient id="57" count="3000000"/>
+    <production id="4890" count="1"/>
+  </item>-->
+    <!-- Crystal Dagger [Mortal Strike] 
+  <item id="10">
+    <ingredient id="57" count="3000000"/>
+    <production id="4776" count="1"/>
+  </item>-->
