@@ -54,7 +54,7 @@
   </for>
 </skill>
 <skill id="2005" levels="1" name="Mana Potion">
-  <set name="power" val="400"/>
+  <set name="power" val="700"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="MANAHEAL"/>
   <set name="operateType" val="OP_ACTIVE"/>
