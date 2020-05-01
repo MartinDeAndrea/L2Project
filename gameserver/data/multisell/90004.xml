@@ -120,22 +120,29 @@
   </item>
 
 <!-- Blessed Scroll of Escape x10 -->
-  <item id="19">
+  <item id="20">
     <ingredient id="57" count="5000000"/>
     <production id="1538" count="10"/>
   </item>
 
 <!-- Blessed Scroll of Resurrection x10 -->
-  <item id="19">
+  <item id="21">
     <ingredient id="57" count="5000000"/>
     <production id="3936" count="10"/>
   </item>
 
 <!-- Greater CP Potions x100 -->
-  <item id="19">
+  <item id="23">
     <ingredient id="57" count="5000000"/>
     <production id="5592" count="100"/>
   </item>
+
+  <!-- Formal Wear -->
+  <item id="23">
+    <ingredient id="57" count="5000000"/>
+    <production id="6408" count="1"/>
+  </item>
+
   
 </list>
 

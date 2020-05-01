@@ -11,7 +11,6 @@
     <production id="2419" count="1"/>
     <production id="5774" count="1"/>
     <production id="5786" count="1"/>
-    <production id="641" count="1"/>
   </item>
 
   <!-- Majestic Leather Armor -->
@@ -68,7 +67,6 @@
     <production id="512" count="1"/>
     <production id="5765" count="1"/>
     <production id="5777" count="1"/>
-    <production id="641" count="1"/>
   </item>
 
   <!-- Dark Crystal Light Armor -->
@@ -97,7 +95,6 @@
     <production id="2418" count="1"/>
     <production id="5771" count="1"/>
     <production id="5783" count="1"/>
-    <production id="2498" count="1"/>
   </item>
 
   <!-- Nightmare Leather Armor -->
@@ -118,4 +115,311 @@
     <production id="5785" count="1"/>
   </item>
 
+   <!-- DC ROBE PECHO -->
+  <item id="13">
+    <ingredient id="57" count="15000000"/>
+    <production id="2407" count="1"/>
+  </item>
+
+ <!-- DC ROBE CASCO-->
+  <item id="14">
+    <ingredient id="57" count="15000000"/>
+    <production id="512" count="1"/>
+  </item>
+
+   <!-- DC ROBE GUANTES -->
+  <item id="15">
+    <ingredient id="57" count="15000000"/>
+    <production id="5767" count="1"/>
+  </item>
+
+  <!-- DC ROBE BOTAS -->
+  <item id="16">
+    <ingredient id="57" count="15000000"/>
+    <production id="5779" count="1"/>
+  </item>
+
+   <!-- MJ HEAVY PECHO -->
+  <item id="17">
+    <ingredient id="57" count="15000000"/>
+    <production id="2383" count="1"/>
+  </item>
+
+  <!-- MJ HEAVY CASCO -->
+  <item id="18">
+    <ingredient id="57" count="15000000"/>
+    <production id="2419" count="1"/>
+  </item>
+
+  <!-- MJ HEAVY GUANTES -->
+  <item id="19">
+    <ingredient id="57" count="15000000"/>
+    <production id="5774" count="1"/>
+  </item>
+
+  <!-- MJ HEAVY BOTAS -->
+  <item id="20">
+    <ingredient id="57" count="15000000"/>
+    <production id="5786" count="1"/>
+  </item>
+
+  <!-- MJ LEATHER PECHO -->
+  <item id="21">
+    <ingredient id="57" count="15000000"/>
+    <production id="2395" count="1"/>
+  </item>
+
+  <!-- MJ LEATHER CASCO -->
+  <item id="22">
+    <ingredient id="57" count="15000000"/>
+    <production id="2419" count="1"/>
+  </item>
+
+  <!-- MJ LEATHER GUANTES -->
+  <item id="23">
+    <ingredient id="57" count="15000000"/>
+    <production id="5775" count="1"/>
+  </item>
+
+  <!-- MJ LEATHER BOTAS -->
+  <item id="24">
+    <ingredient id="57" count="15000000"/>
+    <production id="5787" count="1"/>
+  </item>
+
+  <!-- MJ ROBE PECHO -->
+  <item id="25">
+    <ingredient id="57" count="15000000"/>
+    <production id="2409" count="1"/>
+  </item>
+
+  <!-- MJ ROBE CASCO -->
+  <item id="26">
+    <ingredient id="57" count="15000000"/>
+    <production id="2419" count="1"/>
+  </item>
+
+  <!-- MJ ROBE GUANTES -->
+  <item id="27">
+    <ingredient id="57" count="15000000"/>
+    <production id="5776" count="1"/>
+  </item>
+
+  <!-- MJ ROBE BOTAS -->
+  <item id="28">
+    <ingredient id="57" count="15000000"/>
+    <production id="5788" count="1"/>
+  </item>
+
+<!-- TALLUM HEAVY PECHO -->
+  <item id="29">
+    <ingredient id="57" count="15000000"/>
+    <production id="2382" count="1"/>
+  </item>
+
+  <!-- TALLUM HEAVY CASCO -->
+  <item id="30">
+    <ingredient id="57" count="15000000"/>
+    <production id="547" count="1"/>
+  </item>
+
+  <!-- TALLUM HEAVY GUANTES -->
+  <item id="31">
+    <ingredient id="57" count="15000000"/>
+    <production id="5768" count="1"/>
+  </item>
+
+<!-- TALLUM HEAVY BOTAS -->
+  <item id="32">
+    <ingredient id="57" count="15000000"/>
+    <production id="5780" count="1"/>
+  </item>
+
+  <!-- TALLUM LEATHER PECHO -->
+  <item id="33">
+    <ingredient id="57" count="15000000"/>
+    <production id="2393" count="1"/>
+  </item>
+
+  <!-- TALLUM LEATHER CASCO -->
+  <item id="34">
+    <ingredient id="57" count="15000000"/>
+    <production id="547" count="1"/>
+  </item>
+
+  <!-- TALLUM LEATHER GUANTES -->
+  <item id="35">
+    <ingredient id="57" count="15000000"/>
+    <production id="5769" count="1"/>
+  </item>
+
+  <!-- TALLUM LEATHER BOTAS -->
+  <item id="36">
+    <ingredient id="57" count="15000000"/>
+    <production id="5781" count="1"/>
+  </item>
+
+    <!-- TALLUM ROBE PECHO -->
+  <item id="37">
+    <ingredient id="57" count="15000000"/>
+    <production id="2400" count="1"/>
+  </item>
+
+     <!-- TALLUM ROBE PANTALONES -->
+  <item id="38">
+    <ingredient id="57" count="15000000"/>
+    <production id="2405" count="1"/>
+  </item>
+
+     <!-- TALLUM ROBE CASCO -->
+  <item id="39">
+    <ingredient id="57" count="15000000"/>
+    <production id="547" count="1"/>
+  </item>
+
+     <!-- TALLUM ROBE GUANTES -->
+  <item id="40">
+    <ingredient id="57" count="15000000"/>
+    <production id="5770" count="1"/>
+  </item>
+
+     <!-- TALLUM ROBE BOTAS -->
+  <item id="41">
+    <ingredient id="57" count="15000000"/>
+    <production id="5782" count="1"/>
+  </item>
+
+     <!-- DC HEAVY PECHO -->
+  <item id="42">
+    <ingredient id="57" count="15000000"/>
+    <production id="365" count="1"/>
+  </item>
+
+     <!-- DC HEAVY PANTALONES -->
+  <item id="43">
+    <ingredient id="57" count="15000000"/>
+    <production id="388" count="1"/>
+  </item>
+
+     <!-- DC HEAVY CASCO -->
+  <item id="44">
+    <ingredient id="57" count="15000000"/>
+    <production id="512" count="1"/>
+  </item>
+
+     <!-- DC HEAVY GUANTES -->
+  <item id="45">
+    <ingredient id="57" count="15000000"/>
+    <production id="5765" count="1"/>
+  </item>
+
+     <!-- DC HEAVY BOTAS -->
+  <item id="46">
+    <ingredient id="57" count="15000000"/>
+    <production id="5777" count="1"/>
+  </item>
+
+      <!-- DC LIGHT PECHO -->
+  <item id="47">
+    <ingredient id="57" count="15000000"/>
+    <production id="2385" count="1"/>
+  </item>
+
+        <!-- DC LIGHT PANTALONES -->
+  <item id="48">
+    <ingredient id="57" count="15000000"/>
+    <production id="2389" count="1"/>
+  </item>
+
+      <!-- DC LIGHT CASCO -->
+  <item id="49">
+    <ingredient id="57" count="15000000"/>
+    <production id="512" count="1"/>
+  </item>
+
+        <!-- DC LIGHT GUANTES -->
+  <item id="50">
+    <ingredient id="57" count="15000000"/>
+    <production id="5766" count="1"/>
+  </item>
+
+      <!-- DC LIGHT BOTAS -->
+  <item id="51">
+    <ingredient id="57" count="15000000"/>
+    <production id="5778" count="1"/>
+  </item>
+
+    <!-- NIGHTMARE HEAVY PECHO -->
+  <item id="52">
+    <ingredient id="57" count="15000000"/>
+    <production id="374" count="1"/>
+  </item>
+
+  <!-- NIGHTMARE HEAVY CASCO -->
+  <item id="53">
+    <ingredient id="57" count="15000000"/>
+    <production id="2418" count="1"/>
+  </item>
+
+    <!-- NIGHTMARE HEAVY GUANTES -->
+  <item id="54">
+    <ingredient id="57" count="15000000"/>
+    <production id="5771" count="1"/>
+  </item>
+
+    <!-- NIGHTMARE HEAVY BOTAS -->
+  <item id="55">
+    <ingredient id="57" count="15000000"/>
+    <production id="5783" count="1"/>
+  </item>
+
+    <!-- NIGHTMARE LEATHER PECHO -->
+  <item id="56">
+    <ingredient id="57" count="15000000"/>
+    <production id="2394" count="1"/>
+  </item>
+
+      <!-- NIGHTMARE LEATHER CASCO -->
+  <item id="57">
+    <ingredient id="57" count="15000000"/>
+    <production id="2418" count="1"/>
+  </item>
+
+      <!-- NIGHTMARE LEATHER GUANTES -->
+  <item id="58">
+    <ingredient id="57" count="15000000"/>
+    <production id="5772" count="1"/>
+  </item>
+
+      <!-- NIGHTMARE LEATHER BOTAS -->
+  <item id="59">
+    <ingredient id="57" count="15000000"/>
+    <production id="5781" count="1"/>
+  </item>
+  
+        <!-- NIGHTMARE ROBE PECHO -->
+  <item id="60">
+    <ingredient id="57" count="15000000"/>
+    <production id="2408" count="1"/>
+  </item>
+  
+       <!-- NIGHTMARE ROBE CASCO -->
+  <item id="61">
+    <ingredient id="57" count="15000000"/>
+    <production id="2418" count="1"/>
+  </item>
+
+       <!-- NIGHTMARE ROBE GUANTES -->
+  <item id="62">
+    <ingredient id="57" count="15000000"/>
+    <production id="5773" count="1"/>
+  </item>
+  
+       <!-- NIGHTMARE ROBE BOTAS -->
+  <item id="63">
+    <ingredient id="57" count="15000000"/>
+    <production id="5785" count="1"/>
+  </item>
+  
+  
 </list>

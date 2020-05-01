@@ -4,23 +4,78 @@
 
 <list>
 
-  <!-- Green Seal Stones -->
+  <!-- Green Seal Stones X1-->
   <item id="1">
     <ingredient id="6361" count="1"/>
     <production id="5575" count="5"/>
   </item>
   
-  <!-- Blue Seal Stones -->
+  <!-- Blue Seal Stones X1-->
   <item id="2">
     <ingredient id="6360" count="1"/>
     <production id="5575" count="3"/>
   </item>
   
-  <!-- Red Seal Stones -->
+  <!-- Red Seal Stones X1-->
   <item id="3">
     <ingredient id="6362" count="1"/>
     <production id="5575" count="10"/>
   </item>
+  
+    <!-- Green Seal Stones X10-->
+  <item id="4">
+    <ingredient id="6361" count="10"/>
+    <production id="5575" count="50"/>
+  </item>
+  
+  <!-- Blue Seal Stones X10-->
+  <item id="5">
+    <ingredient id="6360" count="10"/>
+    <production id="5575" count="30"/>
+  </item>
+  
+  <!-- Red Seal Stones X10-->
+  <item id="6">
+    <ingredient id="6362" count="10"/>
+    <production id="5575" count="100"/>
+  </item>
+
+    <!-- Green Seal Stones x100-->
+  <item id="1">
+    <ingredient id="6361" count="100"/>
+    <production id="5575" count="500"/>
+  </item>
+  
+  <!-- Blue Seal Stones x100-->
+  <item id="2">
+    <ingredient id="6360" count="100"/>
+    <production id="5575" count="300"/>
+  </item>
+  
+  <!-- Red Seal Stones x100-->
+  <item id="3">
+    <ingredient id="6362" count="100"/>
+    <production id="5575" count="1000"/>
+  </item>
+  
+    <!-- Green Seal Stones x1000-->
+  <item id="1">
+    <ingredient id="6361" count="1000"/>
+    <production id="5575" count="5000"/>
+  </item>
+  
+  <!-- Blue Seal Stones x1000-->
+  <item id="2">
+    <ingredient id="6360" count="1000"/>
+    <production id="5575" count="3000"/>
+  </item>
+  
+  <!-- Red Seal Stones x1000-->
+  <item id="3">
+    <ingredient id="6362" count="1000"/>
+    <production id="5575" count="10000"/>
+  </item>
+  
   
   <!-- Green Seal Stones -->
   <!--<item id="4">
